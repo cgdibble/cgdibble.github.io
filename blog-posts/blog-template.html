@@ -6,8 +6,8 @@
   </head>
 
   <body>
-
-    <table class="navtable">
+      <!-- There should be a vertical nav bar on the left side that has the list of posts -->
+    <table class="navtableHoriz">
       <!--Want to have borders between cells, and equally spaced across the center 1/3 of screen-->
       <tr>
 
@@ -30,33 +30,42 @@
       </tr>
     </table>                  <!--END NAV TABLE -->
 
-    <table class="posttable">
-        <tr>
-          <td class="post">
-            <!-- INDENT: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -->
-            <p>
-                                  <!-- TITLE OF POST -->
-            </p>
-          </td>
-        </tr>
-        <tr>
-          <td>
-            <p>
-                              <!-- TIME AND DATE OF POST -->
-            </p>
-          </td>
-        </tr>
-        <tr>
-          <td class="post">
-            <p>
-              <br>
-                              <!-- ADD YOUR POST HERE -->
-              <br>
-            </p>
-          </td>
-        </tr>
+    <table class="mainContent"><!--Want the main to cover whole page, and left cell to be side bar -->
+      <tr>
+        <td class="navtablevert">
+          <table>
+                                      <!-- POST LINKS TO PAST BLOGS HERE...(ARCHIVE?) -->
+          </table>
+        </td>
+        <td>
+          <table class="posttable">
+              <tr>
+                <td class="post">
+                  <!-- INDENT: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -->
+                  <p>
+                                       <!-- TITLE OF POST -->
+                  </p>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <p>
+                                    <!-- TIME AND DATE OF POST -->
+                  </p>
+                </td>
+              </tr>
+              <tr>
+                <td class="post">
+                  <p>
+                                 <!-- ADD YOUR POST HERE -->
+                  </p>
+                </td>
+              </tr>
 
-    </table>                  <!-- END POST TABLE -->
+          </table>                  <!-- END POST TABLE -->
+        </td>
+      </tr>
+    </table>
   </body>
 
   <footer>
@@ -65,7 +74,7 @@
         <a href="https://github.com/cgdibble">GitHub</a>,
         <a href="https://www.linkedin.com/pub/charles-dibble/85/6a4/959?trk=shareTw">Linkedin</a>
         , and Twitter
-        <a href="">@cgdibble</a>.
+        <a href="https://twitter.com/cgdibble">@cgdibble</a>.
       </p>
   </footer>
 
