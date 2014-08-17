@@ -1,0 +1,76 @@
+<html>
+  <head>
+    <title>Charlie Dibble</title>
+    <link href='http://fonts.googleapis.com/css?family=Abel|Roboto' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href ="../stylesheets/blog-stylesheet.css">
+  </head>
+  <body>
+    <header>
+      <h1>Charlie Dibble</h1>
+      <h2>From Forest to Source Code</h2>
+      <nav>
+        <ul> <!--Make links text without underline and blue -->
+          <li>
+            <a href="../index.html">Who I Am</a>
+          </li>
+          <li>
+            <a href="blog-index.html">What I Do</a> <!-- Need a base blog page that will be the home for the different posts, that will also have the recent posts menu -->
+          </li>
+          <li>
+            <a href="projects-page.html">What I've Done</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <div class="main"><!-- Need to set up a way to alternate backgrounds w/ text/pics... -->
+      <!--<div class="postlist">
+        <ul>
+          <li>
+            <p>Recent Blog Posts:</p>
+          </li>
+          <li>
+            <a href="t1-compare-websites.html">Tech: Comparing Websites</a>
+          </li>
+          <li>
+            <a href="c1-chefs-kitchen.html">Culture: Chefs in the Kitchen</a>
+          </li>
+          <li>
+            <a href="w2-technical.html">Tech: CSS Concepts Explained</a>
+          </li>
+        </ul>
+      </div>-->
+      <div class="content">
+        <p class="posttitle">
+          Tech: CSS Concepts Explained
+        </p>
+        <p class="posttitle">
+          Sunday, August 17, 2014
+        </p>
+        <p>
+          &nbsp;&nbsp;&nbsp;&nbsp;For this weeks technical blog, the topic is CSS concepts and some differences between them.We will start with some basic concepts: Margin, Border, and Padding. These three things can be confusing to grasp at first as they are mostly just slightly different. I like to think about it like this; Imagine you are looking at a small town from a birds eye view, such that you can see all the buildings in the town. Those buildings represent elements on your website. The padding of an element is how much space is added inside the element. For example, the padding in our town example would be the space within a building that a person can roam. A small building without much space would be an element with only a little bit of padding, while large buildings would have lots of padding. Or you can think of it being the amount of yard/property a house has around before butting up against the next piece of property (element).
+          <br><br>&nbsp;&nbsp;&nbsp;&nbsp;Border is basically the outline of your elements. The house elements on our town website all have walls, and those walls outline the structure. Some structures like sheds might have thin walls (borders), while others might have thick ones.
+          <br><br>&nbsp;&nbsp;&nbsp;&nbsp;Margin is the amount of space outside of one elements border, that separates it from the next element. Imagine if people really disliked their neighbors, and could add fifty feet of no-mans-land space between their property and their neighbors. That would be adding a margin between their two elements.
+          <br><br>&nbsp;&nbsp;&nbsp;&nbsp;In CSS there are classes and ids. These handy tools allow you to be more specific about how you want certain elements styled, and to do it from your CSS document. Ids can only be used on one element on a page, and are designated with a # before the name of the id ( #idName). Classes can be applied to any number of elements, including elements with ids already. Elements can also have multiple classes each, you can have 5 elements with an id and 4 classes each assigned to it if you wanted, as long as it was only one id. Classes are denoted by a period at the start of the name, so: .className would be your syntax in your stylesheet. You can specify that classes only apply to certain elements by doing something like: div.className{}.
+          <br><br>&nbsp;&nbsp;&nbsp;&nbsp;In positioning elements, you can use: absolute, fixed and relative. Absolute positions the element relative to its first positioned ancestor element. Fixed positions the element relative to the browser window. Relative positions the element relative to its normal position. So, a relative position with left:20 will add 20 pixels to the elements left position.
+          <br><br>&nbsp;&nbsp;&nbsp;&nbsp;The display property has two big values: inline and inline-block, as well as a long list of other possible values. Inline block displays the elements without starting a new line. So if you have a div that has a ul in it, if you do inline block, the list items will appear in a row. Using inline block allows you to form elements inline (such as with just using inline). The difference is that you get to treat it like a block in that you can still set width/height, margins and padding. This would cause a list of items to be in their own little boxes (blocks), while still being horizontally listed.
+        </p>
+      </div>
+    </div>
+    <footer>
+      <div class="quote">
+        <p>"No one else could ever be admitted here, since this gate was made only for you. I am now going to shut it."<br>
+         <em>Before the Law</em>
+         <br> Franz Kafka
+      </div>
+      <div>
+        <p class="socialmedia">
+          <a href="https://github.com/cgdibble"><img src="imgs/github-icon.png"></a>,
+          <a href="https://www.linkedin.com/pub/charles-dibble/85/6a4/959?trk=shareTw"><img src="imgs/linkedin-icon-2.png"></a>
+          <a href="https://twitter.com/cgdibble"><img src="imgs/twitter-icon-2.png"></a>
+          <a href="https://plus.google.com/106540260376091044461/about"><img src="imgs/btn_g_red_normal.png-25.png"></a>
+        </p>
+      </div>
+  </footer>
+  </body>
+</html>

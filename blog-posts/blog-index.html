@@ -28,7 +28,7 @@
     </header>
 
     <div class="main"><!-- Need to set up a way to alternate backgrounds w/ text/pics... -->
-      <div class="postlist">
+      <!--<div class="postlist">
         <ul>
           <li>
             <p>Recent Blog Posts:</p>
@@ -40,14 +40,143 @@
             <a href="c1-chefs-kitchen.html">Culture: Chefs in the Kitchen</a>
           </li>
         </ul>
-      </div>
-      <!--<img alt="tuffmarigold" src="/Users/charliedibble/Desktop/DesktopStuff/Media/Photo Albums/Knives/SpydercoCalanderContest/GoodOnes/NextLevel/IMG_3526.JPG">-->
+      </div>-->
       <div class="content">
         <p>The Things I Have Written</p>
         <p>Welcome to my blog!</p>
-        <a href="/Users/charliedibble/Desktop/DevBootcamp/cgdibble.github.io/blog-posts/t1-compare-websites.html">Tech: Comparing Websites</a>
-        <br>
-        <a href="/Users/charliedibble/Desktop/DevBootcamp/cgdibble.github.io/blog-posts/c1-chefs-kitchen.html">Culture: Chefs in the Kitchen</a>
+        <table class="posttable">
+              <tr>
+                <td class="post">
+                  <!-- INDENT: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -->
+                  <p>
+                    Technical Blog: CSS Concepts Explained                    <!-- TITLE OF POST -->
+                  </p>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <p>
+                    Sunday, August 17, 2014                <!-- TIME AND DATE OF POST -->
+                  </p>
+                </td>
+              </tr>
+              <tr>
+                <td class="post">
+                  <p>
+                    <br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;For this weeks technical blog, the topic is CSS concepts and some differences between them.We will start with some basic concepts: Margin, Border, and Padding. These three things can be confusing to grasp at first as they are mostly just slightly different. I like to think about it like this; Imagine you are looking at a small town from a birds eye view, such that you can see all the buildings in the town. Those buildings represent elements on your website. The padding of an element is how much space is added inside the element. For example, the padding in our town example would be the space within a building that a person can roam. A small building without much space would be an element with only a little bit of padding, while large buildings would have lots of padding. Or you can think of it being the amount of yard/property a house has around before butting up against the next piece of property (element).
+                    <br><br>&nbsp;&nbsp;&nbsp;&nbsp;Border is basically the outline of your elements. The house elements on our town website all have walls, and those walls outline the structure. Some structures like sheds might have thin walls (borders), while others might have thick ones.
+                    <br><br>&nbsp;&nbsp;&nbsp;&nbsp;Margin is the amount of space outside of one elements border, that separates it from the next element. Imagine if people really disliked their neighbors, and could add fifty feet of no-mans-land space between their property and their neighbors. That would be adding a margin between their two elements.
+                    <br><br>&nbsp;&nbsp;&nbsp;&nbsp;In CSS there are classes and ids. These handy tools allow you to be more specific about how you want certain elements styled, and to do it from your CSS document. Ids can only be used on one element on a page, and are designated with a # before the name of the id ( #idName).
+                    <br><br>&nbsp;&nbsp;&nbsp;&nbsp;Classes can be applied to any number of elements, including elements with ids already. Elements can also have multiple classes each, you can have 5 elements with an id and 4 classes each assigned to it if you wanted, as long as it was only one id. Classes are denoted by a period at the start of the name, so: .className would be your syntax in your stylesheet. You can specify that classes only apply to certain elements by doing something like: div.className{}. Below you can see the class that is used to set up the table this blog is in. Each blog post is in its own table, therefore it is best to make this a class so that I can assign it to each blog post table.
+                    <br>
+                    <img src="../imgs/w2-technical-classexample.png">
+                    <br><br>&nbsp;&nbsp;&nbsp;&nbsp;In positioning elements, you can use: absolute, fixed and relative. Absolute positions the element relative to its first positioned ancestor element. Fixed positions the element relative to the browser window. Relative positions the element relative to its normal position. So, a relative position with left:20 will add 20 pixels to the elements left position.
+                    <br><br>&nbsp;&nbsp;&nbsp;&nbsp;The display property has two big values: inline and inline-block, as well as a long list of other possible values. Inline block displays the elements without starting a new line. So if you have a div that has a ul in it, if you do inline block, the list items will appear in a row. Using inline block allows you to form elements inline (such as with just using inline). The difference is that you get to treat it like a block in that you can still set width/height, margins and padding. This would cause a list of items to be in their own little boxes (blocks), while still being horizontally listed.
+                    <br><br>              <!-- ADD YOUR POST HERE -->
+                  </p>
+                </td>
+              </tr>
+          </table>                  <!-- END POST TABLE -->
+          <br><br>
+          <table class="posttable">
+              <tr>
+                <td class="post">
+                  <!-- INDENT: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -->
+                  <p>
+                    Cultural Blog: Chefs in the Kitchen                    <!-- TITLE OF POST -->
+                  </p>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <p>
+                    Sunday, August 10, 2014                <!-- TIME AND DATE OF POST -->
+                  </p>
+                </td>
+              </tr>
+              <tr>
+                <td class="post">
+                  <p>
+                    <br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The analogy of kitchen vs restaurant really is awesome. It is the perfect example of the type of mindset that is needed for DevBootcamp and development in general. I can definitely relate to his talk about fears and expectations in the Phase-0 approach to DBC. My own feelings have oscillated some, as I have moments that I fear inadequacy, and others where I wonder if it will be enough.
+                    <br><br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;I continue to be impressed with the mindsets of both my fellow boots, and the instructors at DBC. Everyone emits a strong sense of individuality and desire to achieve, yet the urge to work together creates strong working relationships and skill building. I really am looking forward to working and learning in this environment, and expect it will exceed my expectations. Progressing through Phase-0 is only reinforcing my excitement to be in this program, but there is of course the ever present jitters about being in such a competitive program will remain!
+                    <br><br>              <!-- ADD YOUR POST HERE -->
+                  </p>
+                </td>
+              </tr>
+          </table>                  <!-- END POST TABLE -->
+          <br><br>
+          <table class="posttable">
+              <tr>
+                <td class="post">
+
+                  <p>
+                    Technical: Comparing My Favorite Websites  <!-- TITLE OF POST -->
+                  </p>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <p>
+                    Saturday, August 9, 2014                <!-- TIME AND DATE OF POST -->
+                  </p>
+                </td>
+              </tr>
+              <tr>
+                <td class="post">
+                  <p>
+                    <br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;For my honorary first blog post, commemorating my first week of phase-0 at DevBootcamp, the topic is about my three favorite websites and the pros and cons of each. Seeing as the future will bring a lot of web development, this could be an important exercise that will be revisited in the future. Now, these three sites are going to be in no particular order. I am not sure I could really boil it down to a top three, there are just too many factors.
+                    <br><br>
+                    My first site is going to be <a href="http://www.polygon.com/">Polygon</a>:
+                    <br><br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Polygon is a site that is dedicated to gaming and the culture that thrives on gaming.  Having a gaming news site really is a niche, and it provides more richer content than an online news site that tries to cover all topics. One of the cool things I love about this site is that it doesn&rsquo;t regurgitate old articles just because something in the archive got a few clicks, the content is new and always flowing.
+                    <br><br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Looking at Polygon from a distance, you are drawn to the articles, and pretty much every article has a corresponding image to help draw you in. The header of the site is a grid of the top/newest articles, featuring 4 or 5 different options. These options aren&rsquo;t just your basic text link, they are awesome and curious photos with the article title overlaid. These links are great because they give you more to base your choice to click on other than just the wording of the title.
+                    <br><br>
+                     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The navigation bar allows you to quickly and efficiently narrow down the topics you want covered.  You can even choose what gaming system you want to focus on, or video reviews of games of all types. The nav bar remains in place no matter where on the site you are, and to make it easier, Polygon will suggest related articles at the bottom of articles you read.
+                    <br><br>
+                    5 adjectives about the website visually: organized, attractive,  themed,  divided, flowing
+                    <br><br>
+                    5 adjectives to describe content, focus and purpose: gaming, broad-spectrum,  informative, dedicated,  well-stocked.
+                    <br><br>
+                    Some adjectives that I feel after being on the site for a while: bored (Well, I can only read about gaming news for so long), anxious (new games coming out!),  entertained.
+                    <br><br>
+                    Polygon is also a branch of <a href="http://www.theverge.com/">The Verge</a> which is the more generalized tech world news site, which has many of the same qualities as Polygon does.
+                    <br><br>
+                    Next we have <a href="http://online.wsj.com/home-page">Wall Street Journal</a>:
+                    <br><br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The Wall  Street Journal does a good job of incorporating technology into the timeless newspaper style layout.  At a glance your eyes are drawn to the most prominent articles, the front pagers.  The most prominent feature on the site is the WSJ logo, it seems to pop out too much in its box in the top left corner.  It would look better with a centered and written out title, as opposed to the current large text &ldquo;WSJ.&rdquo;
+                    <br><br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;WSJ takes a large amount of content in the form of news articles and links, and organizes it into categories. Featured content gets the more prominent locations and visuals, while other content is relegated to text links on the margins.  Their layout allows the less prominent content to still be quite visible and accessible.
+                    <br><br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;For a site that really is loaded with content, and is re-loaded every day, the navigation lends itself to easy use. The navigation bar has a well thought out selection of topics to choose from to narrow your search for interesting articles.
+                    <br><br>
+                    5 adjectives to describe the site visually: loaded, organized,  compartmentalized, relevant, intuitive
+                    <br><br>
+                    5 adjectives to describe content, focus and purpose: informative, detailed,  comprehensive, current, dedicated.
+                    <br><br>
+                    Some adjectives describing how I feel after some time on the site: educated, informed, overwhelmed.
+                   <br><br>
+                    My final choice is going to have to be <a href="http://www.imdb.com/">IMDB</a>:
+                    <br><br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;IMDb is a website dedicated to information on television entertainment. This site gives a wealth of information for each and every move, tv show, or actor/actress I have ever looked up, and proves to be quite comprehensive.  If you ever have one of those &ldquo;Oh who was that guy in that movie that one time?&rdquo; moments, IMDb is the place to look.
+                    <br><br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The homepage offers interesting facts and videos/graphics of recent or older media. I tend to not go straight to the homepage as I usually get to this site through a Google search of a movie or actor. What really is the essential part of the home page is the search bar, and it is the first thing your eye catches. The search function is very effective, and will yield specific results. From farther back, your eye tends to be moved to the different videos and images screaming for attention lower down on the page.
+                    <br><br>
+                    5 adjectives to describe the  site visually: media rich, focused, informative,  alluring, inquisitive.
+                    <br><br>
+                    5 adjectives to describe content, focus and purpose: specific, thorough, related, extensive, complete.
+                    <br><br>
+                    Some adjectives to describe how I feel after some time on the site: satisfied (Gotta love getting that movie trivia factoid answered), entertained.
+                    <br>
+                    <br>             <!-- ADD YOUR POST HERE -->
+                  </p>
+                </td>
+              </tr>
+          </table>                  <!-- END POST TABLE -->
       </div>
     </div>
     <footer>
