@@ -1,43 +1,82 @@
 html {
-  background-color: #0099ff;
+  background-color: #1D60DA;
   color: black;
-
+  margin: 0;
+  padding: 0;
+  font-family: "Shadows into Light"
 }
 
-.pagetitle {
-  margin-bottom: 0px;
+header {
+  border-bottom: 1px solid #202D78;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+}
+
+header h1 {
   text-align: center;
+  margin: 3px;
+}
+
+header h2 {
+  text-align: center;
+  margin: 0 0 8px 0;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+  text-align: center;
+}
+
+a:hover{
+  background-color: white;
 }
 
 .posttable {
   width: 60%;
   margin-left: auto;
   margin-right: auto;
-  border:1px solid #0033CC;
   border-spacing: 0;
 }
 
-.navtableHoriz {
-  text-align: center;
-  width: 40%;
-  margin-right: auto;
-  margin-left: auto;
-  border: 0;
-  margin-bottom: 0px;
-  margin-top: 5px;
-}
-
-.navtablevert {
-  text-align: left;
-  padding-left: 5px;
-  width: 15%;
-}
 .mainContent {
   text-align: left;
   width: 100%;
   height: 100%
   margin-left: 0px;
   margin-top: 10px;
+}
+
+.main { /*This is the main DIV that contains the bulk of the site.*/
+  background-color: inherit;
+  width: 100%;
+  margin: auto;
+  /*border: 2px solid #202D78;*/
+  padding: 0;
+}
+/*
+div img {
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  text-align: center;
+  vertical-align: center;
+} For the image in the main div, to get image centered even with the dang blog posts menu
+*/
+.postlist {
+  background-color: inherit;
+  border: 1px solid #202D78;
+  width: 15%;
+  float: left;
+}
+
+.postlist li {
+  margin: 10px;
+}
+
+.postlist li p {
+  text-decoration: underline;
 }
 
 .center {
@@ -48,12 +87,50 @@ html {
   text-align: left;
 }
 
+.content {
+  border: 1px solid #202D78;
+  width: 60%;
+  margin: 0 auto
+}
+
+.content p {
+  text-align: center;
+}
+
+.meimage {        /*Image of me in the about me section on index page*/
+  width: 10%;
+  margin-left: 45%;
+  margin-right: auto;
+}
+
+td {
+  border: 1px solid #202D78;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+
+nav {
+  margin-left: 2%;
+  margin-right: auto;
+}
+
+nav li {
+  display: inline;
+/*  border-left: 1px solid #202D78;
+  border-right: 1px solid #202D78;*/
+  margin: 0 5px;
+}
+
+nav ul {
+  margin: auto;
+  width: 20%;
+}
+
 .socialmedia {
   font-size: 10px;
   text-align: center;
 }
-
-td {
-  border: 2px solid #0033CC;
-}
-
