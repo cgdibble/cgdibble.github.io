@@ -35,7 +35,7 @@ a:hover{
 }
 
 .posttable {
-  width: 60%;
+  width: 100%;
   margin-left: auto;
   margin-right: auto;
   border-spacing: 0;
@@ -53,39 +53,26 @@ a:hover{
   background-color: inherit;
   width: 100%;
   margin: auto;
-  /*border: 2px solid #202D78;*/
   padding: 0;
 }
 
-.postlist {
-  background-color: inherit;
-  border: 1px solid #347DD3;
-  width: 15%;
+.content {
+
+  width: 60%;
+  margin: 0 auto;
+  text-align: center;
+
+}
+
+.techblog {
   float: left;
   text-align: center;
-  margin-left: 2%;
+  margin-left: 5%;
+  margin-right: 5%;
 }
 
-.postlist li {
-  margin: 10px;
-}
-
-.postlist li p {
-  text-decoration: underline;
-}
-
-.center {
+.cultureblog {
   text-align: center;
-}
-
-.post {
-  text-align: left;
-}
-
-.content {
-  border: 1px solid #347DD3;
-  width: 60%;
-  margin: 0 auto
 }
 
 .content p {
@@ -97,9 +84,8 @@ a:hover{
   width: 10%;
   margin-left: 45%;
   margin-right: auto;
+  display: block;
 }
-
-
 
 td {
   border: 1px solid #347DD3;
@@ -118,8 +104,6 @@ nav {
 
 nav li {
   display: inline;
-/*  border-left: 1px solid #202D78;
-  border-right: 1px solid #202D78;*/
   margin: 0 5px;
 }
 
@@ -151,4 +135,8 @@ footer div {
   border-top: 0;
   margin-top: 0;
   text-align: center;
+}
+
+p a {
+  text-decoration: underline;
 }
