@@ -6,14 +6,6 @@ html {
   padding: 0;
   font-family: "Abel"
 }
-/*This lets you have the back ground the full size.
-body {
-  background: url(../imgs/IMG_3019.jpg) no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-}*/
 
 header {
   background: url('../imgs/DSCN1160.JPG');
@@ -50,6 +42,32 @@ a:hover{
   border-spacing: 0;
 }
 
+.postarchive {
+  float: none;
+  text-align: left;
+  width: 25%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.meimage {      /*Image of me in the about me section on index page*/
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+.content img{      /*Image of me in the about me section on index page*/
+  width: 20%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+.postarchive li {
+  margin: 5px;
+  border-bottom: 1px solid #112D78;
+}
+
 .mainContent {
   text-align: left;
   width: 100%;
@@ -77,13 +95,6 @@ a:hover{
 .content p {
   text-align: center;
   font-size: 20px;
-}
-
-.meimage {        /*Image of me in the about me section on index page*/
-  width: 20%;
-  margin-left: auto;
-  margin-right: auto;
-  display: block;
 }
 
 td {
@@ -126,6 +137,7 @@ nav ul {
 footer div {
   border-top: 1px solid #347DD3;
   margin-top: 10px;
+  text-align: center;
 }
 
 .quote {
