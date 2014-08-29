@@ -1,0 +1,60 @@
+<html>
+  <head>
+    <title>Charlie Dibble</title>
+    <link href='http://fonts.googleapis.com/css?family=Abel|Roboto' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href ="../stylesheets/blog-stylesheet.css">
+  </head>
+  <body>
+    <header>
+      <h1>Charlie Dibble</h1>
+      <h2>From Forest to Source Code</h2>
+      <nav>
+        <ul> <!--Make links text without underline and blue -->
+          <li>
+            <a href="../index.html">Who I Am</a>
+          </li>
+          <li>
+            <a href="blog-index.html">What I Do</a> <!-- Need a base blog page that will be the home for the different posts, that will also have the recent posts menu -->
+          </li>
+          <li>
+            <a href="projects-page.html">What I've Done</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <div class="main"><!-- Need to set up a way to alternate backgrounds w/ text/pics... -->
+
+      <div class="content">
+        <p class="posttitle">
+                  Technical: Hashes and Arrays<!-- ENTER TITLE HERE -->
+        </p>
+        <p class="posttitle">
+                  Friday, August 29, 2014<!-- ENTER DATE HERE -->
+        </p>
+        <p>
+          <br><br>&nbsp;&nbsp;&nbsp;&nbsp;Lately, we have been working a lot with hashes and arrays in Ruby. Hashes are very new to me, and determining which data structure is appropriate in what scenario takes some getting used to.
+          <br><br>&nbsp;&nbsp;&nbsp;&nbsp;An <a href="http://www.ruby-doc.org/core-2.1.2/Array.html">array</a> can be as simple as a list of numbers, or it can be as complicated as lists of lists of lists of objects (that sounds overly complicated, right?). To reference a value in an array, you need to use that values index. Array indices start from 0, so the first item in an array will always have an index of 0, and the last element in an array will have an index of array.length &ndash; 1. The #length might look new to you, and if it does, it is a method that returns the length of whatever array you call it on. Arrays can be great for storing things like a list of words to be randomly selected for a game of hang-man, or the details of a person&#39;s address.
+          <br><br>&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://www.ruby-doc.org/core-2.1.2/Hash.html">Hashes</a> are buddies with arrays, but they can be used very differently. For one, hashes are not bound to strictly numerical indices like arrays, in fact, you can give a hash any index you want. To avoid confusion, hashes don&#39;t really use index, they call it a &#34;key.&#34;  Every key in a hash is matched with a certain value, thus getting us key/value pairs. You might want to store a list of all of your friends and their ages, so you would assign the key as the persons name, and the value as their age. From here you can see a myriad of methods associated with hashes that allow you to play with the data, with things like sorting, deleting and adding methods.
+          <br><br>&nbsp;&nbsp;&nbsp;&nbsp;All I have learned so far in choosing is that it depends. I am even curious if a hash that has values of arrays, maybe that works, that could be pretty useful if you wanted to pull a list of numbers associated with a certain key. Luckily, there is quite a bit of overlap in methods, and they don&#39;t change naming conventions all over the place for each class, so you have a lot of repeated methods. Hashes are very cool, and I am glad Ruby has them, as arrays can sometimes be tricky to deal with, at least in the scenarios in which a hash is best.
+               <!-- ENTER POST HERE -->
+        </p>
+      </div>
+    </div>
+    <footer>
+      <div class="quote">
+        <p>"No one else could ever be admitted here, since this gate was made only for you. I am now going to shut it."<br>
+         <em>Before the Law</em>
+         <br> Franz Kafka
+      </div>
+      <div>
+        <p class="socialmedia">
+          <a href="https://github.com/cgdibble"><img src="../imgs/github-icon.png"></a>,
+          <a href="https://www.linkedin.com/pub/charles-dibble/85/6a4/959?trk=shareTw"><img src="../imgs/linkedin-icon-2.png"></a>
+          <a href="https://twitter.com/cgdibble"><img src="../imgs/twitter-icon-2.png"></a>
+          <a href="https://plus.google.com/106540260376091044461/about"><img src="../imgs/btn_g_red_normal.png-25.png"></a>
+        </p>
+      </div>
+  </footer>
+  </body>
+</html>
