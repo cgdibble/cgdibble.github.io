@@ -1,0 +1,66 @@
+<html>
+  <head>
+    <title>Charlie Dibble</title>
+    <link href='http://fonts.googleapis.com/css?family=Abel|Roboto' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href ="../stylesheets/blog-stylesheet.css">
+  </head>
+  <body>
+    <header>
+      <h1>Charlie Dibble</h1>
+      <h2>From Forest to Source Code</h2>
+      <nav>
+        <ul>
+          <li>
+            <a href="../index.html">Home</a>
+          </li>
+          <li>
+            <a href="about-me.html">About Me</a>
+          </li>
+          <li>
+            <a href="blog-index.html">Blog</a> <!-- Need a base blog page that will be the home for the different posts, that will also have the recent posts menu -->
+          </li>
+          <li>
+            <a href="projects-page.html">Projects</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <div class="main"><!-- Need to set up a way to alternate backgrounds w/ text/pics... -->
+
+      <div class="content">
+        <p class="posttitle">
+                  Tech: Class and Instance Methods<!-- ENTER TITLE HERE -->
+        </p>
+        <p class="posttitle">
+                  Saturday, September 13, 2014<!-- ENTER DATE HERE -->
+        </p>
+        <p class="blogbody">
+          &nbsp;&nbsp;&nbsp;&nbsp;When comparing class methods and instance methods, the most basic difference is that instance methods are called on an instance of the class, while class methods are called on the class name itself. Instance methods, called on objects, have access the instance variables associated with the object. Because instance variables are associated with objects, our class methods can not access them because&#184; after all&#184; we aren&#39;t giving it any object to look at when calling the method.
+          <br><br>&nbsp;&nbsp;&nbsp;&nbsp;The benefits of instance methods are that we can access an objects information&#184; and if we want&#184; we can manipulate it to our liking. We need to have these methods because of the way objects are made. Objects all contain information, and that information applies only to that object. This is made convenient because of instance variables that are the variables that store the data associated with each object.  We could do the same process without objects&#184; but then we would have to create every variable for every object&#184; which can be insanely cumbersome; imagine a database of a million people with all their personal information&#184; and imagine how many variables you would need to hard code if we didn&#39;t have objects! So, since objects store this information so well&#184; we need to have means of accessing and altering this information if necessary. This is where our instance methods come in. We may just want to ask the computer what one piece of data is, which means we would need to make a &#34;getter&#34; for that instance variable. To make sure we are referencing the specific variable value associated with the object, we have to call the getter method on the object itself, otherwise, how can it know what instance variable to return?
+          <br><br>&nbsp;&nbsp;&nbsp;&nbsp;Class methods are great for storing some sort of functionality that doesn&#39;t necessarily apply to specific objects.  Say we want a method that takes all the instance variables of an object and interpolates them into a nicely formatted string. This could be done by passing an object to the method and returning the interpolated string with the objects variables in the string.
+          <br><br>&nbsp;&nbsp;&nbsp;&nbsp;Really you can make all methods class methods, but this is clunkier as you would have to pass the object in questions to each method and run the code on that object. But having instance methods allows us to skip the process of passing the object because by calling the method on that object, then it is implicit that that is the object you want to refer to.
+          <br><br>&nbsp;&nbsp;&nbsp;&nbsp;Here is a small example of a class called People&#184; with an initialization method, which is our example of a class method, and a method #interpolate, which is an instance method. On line 14 I created an object called “me” that calls the initialization method of the People class, which is using the class method to create a new object. On line 15&#184; I call me#interpolate&#184; which calls the instance method #interpolate that takes all the data associated with &#34;me&#34; and prints/returns it as an interpolated string.
+          <br><br><img src="../imgs/PeopleClassW6TechBlog.png">
+          <br><br>
+          <!-- ENTER POST HERE -->
+        </p>
+      </div>
+    </div>
+    <footer>
+      <div class="quote">
+        <p>"No one else could ever be admitted here, since this gate was made only for you. I am now going to shut it."<br>
+         <em>Before the Law</em>
+         <br> Franz Kafka
+      </div>
+      <div>
+        <p class="socialmedia">
+          <a href="https://github.com/cgdibble"><img src="../imgs/github-icon.png"></a>,
+          <a href="https://www.linkedin.com/pub/charles-dibble/85/6a4/959?trk=shareTw"><img src="../imgs/linkedin-icon-2.png"></a>
+          <a href="https://twitter.com/cgdibble"><img src="../imgs/twitter-icon-2.png"></a>
+          <a href="https://plus.google.com/106540260376091044461/about"><img src="../imgs/btn_g_red_normal.png-25.png"></a>
+        </p>
+      </div>
+  </footer>
+  </body>
+</html>
