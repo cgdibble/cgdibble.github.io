@@ -16,7 +16,7 @@
             <a href="about-me.html">About Me</a>
           </li>
           <li>
-            <a href="blog-index.html">Blogs</a>
+            <a href="blog-index.html">Blog</a>
           </li>
           <li>
             <a href="projects-page.html">Projects</a>
@@ -27,18 +27,76 @@
 
     <div class="main"><!-- Need to set up a way to alternate backgrounds w/ text/pics... -->
       <div class="content">
-        <p>Welcome to my blog!</p>
+        <p class="aligncenter">Welcome to my blog!</p>
         <table class="posttable">
           <tr>
-            <td class="post">
+            <td>
+              <p class="aligncenter">
+                Tech: Recursion       <!-- TITLE OF POST -->
+              </p>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <p class="aligncenter">
+                Sunday, September 28, 2014   <!-- TIME AND DATE OF POST -->
+              </p>
+            </td>
+          </tr>
+          <tr>
+            <td class="blogbody">
               <p>
+                <br>&nbsp;&nbsp;&nbsp;&nbsp;I find recursion to be a really cool topic. I am not sure what about it fascinates me so, but I can’t help but get excited about it. At it’s most base level, recursion is repeating the same task over and over. With respect to computer science, it is more about repeating the same operation with a new and updated value.
+                <br><br>&nbsp;&nbsp;&nbsp;&nbsp;I remember the day of my DBC interview I was reading up on some different topics and read about recursion specifically. Luckily, one of the questions was an example of recursion in Ruby. The example was this (or at least similar to this):
+                <img src="../imgs/Recursion1.png">
+                <br><br>&nbsp;&nbsp;&nbsp;&nbsp;I was given a method declaration like this., and asked to explain what was going on. After going on about it being a method declaration in Ruby where the method #cookies takes a parameter num, I explained that it was recursive. This method is recursive because it calls itself within itself.
+                <br><br>&nbsp;&nbsp;&nbsp;&nbsp;Now, this is not exactly a pretty example of recursion because it is infinitely recursive. There is no check to exit the continuous call to #cookies from within #cookies, so, it goes on indefinitely.
+                <br><br>&nbsp;&nbsp;&nbsp;&nbsp;This was part of the problem I was given, I had to fix this infinitely recursive method. To do so, there has to be some sort of control statement to help keep us from having an infinitely recursive method. To fix this, I put in a simple if statement that would check for the number of cookies. After all, you can not eat more cookies than you start with, so I had this statement check to see if cookies was >= 0.
+                <img src="../imgs/Recursion2.png">
+                <br><br>&nbsp;&nbsp;&nbsp;&nbsp;This shorthand if statement checks to see if the number of cookies is still greater than 0. Now, when we call our recursive method, we will continue to take cookies out of our “jar” until they are all gone.
+                <br><br>&nbsp;&nbsp;&nbsp;&nbsp;Now, to test and see if you learned anything about recursion from this explanation, google “recursion” and see if you get the google engineers’ joke.
+              </p>
+            </td>
+          </tr>
+        </table>
+        <br><br>
+        <table class="posttable">
+          <tr>
+            <td>
+              <p class="aligncenter">
+                Culture: Emotional Conflict       <!-- TITLE OF POST -->
+              </p>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <p class="aligncenter">
+                Sunday, September 28, 2014   <!-- TIME AND DATE OF POST -->
+              </p>
+            </td>
+          </tr>
+          <tr>
+            <td class="blogbody">
+              <p>
+                <br>&nbsp;&nbsp;&nbsp;&nbsp;I think the most relevant emotional conflict is the one I had with my fiancée about pursuing software development. I had left my job as a forester with CALFIRE and wanted to sign up for some community college classes in a couple languages to see if it was the right step. Around that time she had been accepted as an intern for, what is basically a dream job in San Diego. We had and still have spent way too much time separated, and this time we had some what of a choice. I knew that I wanted to pursue DBC and since that wasn’t an option from San Diego we had to decide to be apart for four months. I got a weekend visit in there part way through at least.
+                <br><br>&nbsp;&nbsp;&nbsp;&nbsp;We ended up having to discuss our life goals in more depth than before, and our short and long term goals. This allowed us to see each others visions for the future and how to work around these rough patches. It would have been better to illustrate our goals ahead of time, instead of waiting until the defining moment. In the end our actions resolved the situation very effectively.
+                <br><br>&nbsp;&nbsp;&nbsp;&nbsp;This just taught me to have a more open line of communication about pretty much everything, especially life goals and desires/dreams. This will make for a smoother transition when the necessary steps to accomplish those things comes.
+              </p>
+            </td>
+          </tr>
+        </table>
+        <br><br>
+        <table class="posttable">
+          <tr>
+            <td>
+              <p class="aligncenter">
                 Culture: Values            <!-- TITLE OF POST -->
               </p>
             </td>
           </tr>
           <tr>
             <td>
-              <p>
+              <p class="aligncenter">
                 Sunday, September 21, 2014   <!-- TIME AND DATE OF POST -->
               </p>
             </td>
@@ -46,10 +104,20 @@
           <tr>
             <td class="blogbody">
               <p>
-                &nbsp;&nbsp;&nbsp;&nbsp;The values I selected for myself are:
-                <br><br>&nbsp;&nbsp;&nbsp;&nbsp;accomplishment, enthusiasm, growth, leadership, meaningful work,  reputation., responsibility
-                <br><br> &nbsp;&nbsp;&nbsp;&nbsp;Growth:
-                <br><br>&nbsp;&nbsp;&nbsp;&nbsp;Growth is very important for me to be happy, proud and satisfied. Without growth, you are stagnant and are not gaining anything. I am the type of person who needs to be challenged and to learn to be truly enjoying myself, and with out growth I can get pretty down in the pits.
+                <br>&nbsp;&nbsp;&nbsp;&nbsp;The values I selected for myself are:
+                &nbsp;&nbsp;&nbsp;&nbsp;
+                <ul>
+                  <li>Accomplishment</li>
+                  <li>Enthusiasm</li>
+                  <li>Growth</li>
+                  <li>Leadership</li>
+                  <li>Meaningful work</li>
+                  <li>Reputation</li>
+                  <li>Responsibility</li>
+                </ul>
+                &nbsp;&nbsp;&nbsp;&nbsp;Growth:
+                <br>&nbsp;&nbsp;&nbsp;&nbsp;Growth is very important for me to be happy, proud and satisfied. Without growth, you are stagnant and are not gaining anything. I am the type of person who needs to be challenged and to learn to be truly enjoying myself, and with out growth I can get pretty down in the pits.
+                <br><br>
                 <ul>
                   <li>Accomplishment: 5</li>
                   <li>Enthusiasm: 5</li>
@@ -59,7 +127,7 @@
                   <li>Reputation: 5</li>
                   <li>Responsibility: 5</li>
                 </ul>
-                <br><br>&nbsp;&nbsp;&nbsp;&nbsp;I always try to live up to these values, because these are what define me and who I am at the core.  There are certainly times in which my focus wanes, and those are the times when I get down in life. To get myself out of a bad spot, the best thing for me to do is to revert back to these core values.
+                <br>&nbsp;&nbsp;&nbsp;&nbsp;I always try to live up to these values, because these are what define me and who I am at the core.  There are certainly times in which my focus wanes, and those are the times when I get down in life. To get myself out of a bad spot, the best thing for me to do is to revert back to these core values.
                 <br><br>&nbsp;&nbsp;&nbsp;&nbsp;The last time some one asked me for advice was about what type of keyboard they should get.  I suppose people don’t ask me for advice very often, or maybe when they do I just don’t recognize it as such.
                 <br><br>&nbsp;&nbsp;&nbsp;&nbsp;These values are what defend me from stereotype threat. It happens, yeah, but because of my focus on these values it is a non-issue for me. If I am feeling down I will have to revert back to these values, just as before.
               </p>
@@ -69,21 +137,21 @@
         <br><br>
         <table class="posttable">
           <tr>
-            <td class="post">
-              <p>
+            <td>
+              <p class="aligncenter">
                 Tech: SQL Injection             <!-- TITLE OF POST -->
               </p>
             </td>
           </tr>
           <tr>
             <td>
-              <p>
+              <p class="aligncenter">
                 Saturday, September 20, 2014   <!-- TIME AND DATE OF POST -->
               </p>
             </td>
           </tr>
           <tr>
-            <td class="blogbody">
+            <td>
               <p>
                 <br>&nbsp;&nbsp;&nbsp;&nbsp;SQL injection is when SQL statements are inserted into a data field to be executed that are exploiting a security weakness and hoping to gain access to the database information. These vulnerabilities occur when situations such as the input data field not being filtered escape characters that exit string literals. This essentially allows a user (or in this case, a hacker) to access the database through data input fields. This means that someone can copy the database or even delete everything, or both! You can imagine that if a bank&#39;s website allowed this to happen, then someone could use SQL commands to access your information with out even having to login as you. That sounds pretty problematic, but luckily this is (hopefully) checked for and fixed.
                 <br><br>&nbsp;&nbsp;&nbsp;&nbsp;To avoid this, developers need to use input validation to check against pre-defined rules for the input type, such as length, type and syntax.  You also want to make sure that any user input data is not sent to the SQL interpreter as a SQL query, as this allows commands to be sent directly through data fields. Input validation prevents commands from being passed this way, and limiting the user permissions as much as possible is always a good idea.  When it comes to web applications, it is not recommended to use system administrator accounts, as this would have full, or much more significant privileges when it comes to the database access.
@@ -94,15 +162,15 @@
         <br><br>
         <table class="posttable">
           <tr>
-            <td class="post">
-              <p>
+            <td>
+              <p class="aligncenter">
                 Culture: Stereotype Threat             <!-- TITLE OF POST -->
               </p>
             </td>
           </tr>
           <tr>
             <td>
-              <p>
+              <p class="aligncenter">
                 Sunday, September 14, 2014   <!-- TIME AND DATE OF POST -->
               </p>
             </td>
@@ -117,365 +185,357 @@
         </table>
         <br><br>
         <table class="posttable">
-              <tr>
-                <td class="post">
-                  <!-- INDENT: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -->
-                  <p>
-                          Tech: Class and Instance Methods             <!-- TITLE OF POST -->
-                  </p>
-                </td>
-              </tr>
-              <tr>
-                <td>
-                  <p>
-                          Saturday, September 13, 2014   <!-- TIME AND DATE OF POST -->
-                  </p>
-                </td>
-              </tr>
-              <tr>
-                <td class="blogbody">
-                  <p>
-                    <br>&nbsp;&nbsp;&nbsp;&nbsp;When comparing class methods and instance methods, the most basic difference is that instance methods are called on an instance of the class, while class methods are called on the class name itself. Instance methods, called on objects, have access the instance variables associated with the object. Because instance variables are associated with objects, our class methods can not access them because&#184; after all&#184; we aren&#39;t giving it any object to look at when calling the method.
-                    <br><br>&nbsp;&nbsp;&nbsp;&nbsp;The benefits of instance methods are that we can access an objects information&#184; and if we want&#184; we can manipulate it to our liking. We need to have these methods because of the way objects are made. Objects all contain information, and that information applies only to that object. This is made convenient because of instance variables that are the variables that store the data associated with each object.  We could do the same process without objects&#184; but then we would have to create every variable for every object&#184; which can be insanely cumbersome; imagine a database of a million people with all their personal information&#184; and imagine how many variables you would need to hard code if we didn&#39;t have objects! So, since objects store this information so well&#184; we need to have means of accessing and altering this information if necessary. This is where our instance methods come in. We may just want to ask the computer what one piece of data is, which means we would need to make a &#34;getter&#34; for that instance variable. To make sure we are referencing the specific variable value associated with the object, we have to call the getter method on the object itself, otherwise, how can it know what instance variable to return?
-                    <br><br>&nbsp;&nbsp;&nbsp;&nbsp;Class methods are great for storing some sort of functionality that doesn&#39;t necessarily apply to specific objects.  Say we want a method that takes all the instance variables of an object and interpolates them into a nicely formatted string. This could be done by passing an object to the method and returning the interpolated string with the objects variables in the string.
-                    <br><br>&nbsp;&nbsp;&nbsp;&nbsp;Really you can make all methods class methods, but this is clunkier as you would have to pass the object in questions to each method and run the code on that object. But having instance methods allows us to skip the process of passing the object because by calling the method on that object, then it is implicit that that is the object you want to refer to.
-                    <br><br>&nbsp;&nbsp;&nbsp;&nbsp;Here is a small example of a class called People&#184; with an initialization method, which is our example of a class method, and a method #interpolate, which is an instance method. On line 14 I created an object called “me” that calls the initialization method of the People class, which is using the class method to create a new object. On line 15&#184; I call me#interpolate&#184; which calls the instance method #interpolate that takes all the data associated with &#34;me&#34; and prints/returns it as an interpolated string.
-                    <br><br><img src="../imgs/PeopleClassW6TechBlog.png"> <!-- ADD YOUR POST HERE -->
-                  </p>
-                </td>
-              </tr>
-          </table>
-          <br><br>
-        <table class="posttable">
-              <tr>
-                <td class="post">
-                  <!-- INDENT: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -->
-                  <p>
-                          Culture: Pairing and Me              <!-- TITLE OF POST -->
-                  </p>
-                </td>
-              </tr>
-              <tr>
-                <td>
-                  <p>
-                          Sunday, September 7, 2014   <!-- TIME AND DATE OF POST -->
-                  </p>
-                </td>
-              </tr>
-              <tr>
-                <td class="blogbody">
-                  <p>
-                    <br>&nbsp;&nbsp;&nbsp;&nbsp;This is the final day of week 5, phase 0 of DevBootcamp and so far I have had 10 pairing sessions. These sessions have had a lot of variation in terms of their effectiveness and how much I have enjoyed them.
-                    <br><br>&nbsp;&nbsp;&nbsp;&nbsp;I took a couple programming classes in the spring, primarily a Java course, and we spent a lot of our time working together to solve the problems. Between that experience, and my experience in pairing with DBC, I have found that pairing is vastly more beneficial to learning and problem solving than working alone.
-                    <br><br>&nbsp;&nbsp;&nbsp;&nbsp;It is important to have a strong line of communication between a pair to really get the benefits of talking through possible solutions. In the pairing sessions I have had, those in which we were both chatting back and forth about the problem and possible ways to solve it, were not only the most productive, but I also learned more.
-                    <br><br>&nbsp;&nbsp;&nbsp;&nbsp;I had a long string of great pairs, and wasn&#39;t sure what would define a <em>bad</em> pairing session, that is, until I had one. What made it a negative experience was that the whole time I felt that my opinions were not being considered, and that I was being looked down upon. I could go on about the one more negative experience, but really what I took from it was that the pair relationship has to be one of respect and support. You need to make your pair feel respected so they are comfortable sharing their views and ideas with you, and really disrespect can be really distracting from the goal of the challenge. A good pair is supportive by giving honest, but <em>respectful</em>, real time feedback, because this is how you really talk through a challenge together. You also need to support them but providing them with any tricks you more efficient methods you may know, or by explaining confusing parts so that you are both on the same page technically.
-                    <br><br>&nbsp;&nbsp;&nbsp;&nbsp;Feedback:
-                    <br><br>&nbsp;&nbsp;&nbsp;&nbsp;After getting all the feedback, I wish more that I knew who wrote each piece. Some bits of information provided in feedback are more helpful when one can apply those inputs to your experience too, so you can analyze their points from your point of view. Leaving it anonymous just seems to be keeping you from getting the most out of a piece of feedback. The less helpful feedbacks tend to but what I think are the earlier ones, where we are all practicing giving effective feedback. Most feedback provides me with at least some type of useful information for improving my mind set and pairing skills. I wish the feedbackinator would let me know who I have written feedback for since after a long day of challenges and pairing, I have had 3 pairs in a day before, I can&#39;t quite remember who I wrote feedback for and who I didn&#39;t. It would be very helpful to know who I wrote it for!
-                   <br><br>&nbsp;&nbsp;&nbsp;&nbsp;Pairing is great, especially with us all working remotely, it helps us build relationships and pairing skills for when the on campus time starts.  Feedback is great, but hopefully we can get to the point where we will be able to communicate this information in person, without using the anonymous feedbackinator. I would prefer to hear from the pair partner directly, so I can reflect more effectively on how to improve.
-                    <br><br>              <!-- ADD YOUR POST HERE -->
-                  </p>
-                </td>
-              </tr>
-          </table>
-          <br><br>
-        <table class="posttable">
-              <tr>
-                <td class="post">
-                  <!-- INDENT: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -->
-                  <p>
-                          Tech: Ruby Classes              <!-- TITLE OF POST -->
-                  </p>
-                </td>
-              </tr>
-              <tr>
-                <td>
-                  <p>
-                          Saturday, September 6, 2014   <!-- TIME AND DATE OF POST -->
-                  </p>
-                </td>
-              </tr>
-              <tr>
-                <td class="blogbody">
-                  <p>
-                    &nbsp;&nbsp;&nbsp;&nbsp;Object Oriented programming languages are all about objects and classes. Classes allow us to group similar objects together to minimize the work we need to do to create useful methods. For instance, if we did not have an Array class, with a list of a few dozen instance methods, then we would have to define each method every time we wanted to manipulate an array object we create. Because of classes, our Array class has that wonderful list of methods that can be applied to any object of that class. This is great because say we had a class called Library, where each object of the Library class was an individual book. We would not want to have to create a separate #check_out method for each and every book in the Library! That would be tedious and unnecessary. This is why we would create one single #check_out method in our Library class that will allow us to check out <em>any</em> book we want, by just calling that method on our object (remember,  each book is an object).
-                    <br><br>&nbsp;&nbsp;&nbsp;&nbsp;First, lets take a few steps back and talk about the creation of each object (book) in our Library class.  Ruby allows us to create an #initialize method in our class, that is automatically called whenever we perform a Library#new call. This allows us to initialize a new object of the Library class.
-                    <br><br><img src="../imgs/NewObject1.png">
-                    <br><br>&nbsp;&nbsp;&nbsp;&nbsp;Here, line 9 creates a new object called book1 that is of the Library class, and it passes a title, author and ISBN to our initialize method.  Again, this is just like if we were to say:
-                    <br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;book1 = Library.initialize(&#34;The Moon Is Down&#34;, &#34;John Steinbeck&#34;, &#34;1239755346&#34;).
-                    <br><br>&nbsp;&nbsp;&nbsp;&nbsp;These pieces of information, or arguments, must be in the exact order you specify in the initialize declaration, otherwise you will end up with some funky titles, authors and ISBNs.
-                    <br><br>&nbsp;&nbsp;&nbsp;&nbsp;Now that we have created a brand new object, book1, on line 1, we want to use a newly made Library#check_out method on it. Because book1 is an object or our Library class, we can use this #check_out method. This is because #check_out is an instance method, which means it can be used on instances of the class, and each object is an instance of a class, thus the instance method #check_out  is usable on the instance of Library class book1.
-                    <br><br><img src="../imgs/CheckOutMethod.png">
-                    <br><br>&nbsp;&nbsp;&nbsp;&nbsp;Lets take a look at the newly created instance method #check_out. This instance method has two parameters, the date and person. We have to pass this information to the method so we can know who checked out our book and when. Declaring this method within the class makes it an instance method for our Library class. What if we put it outside of the class you say? Well, then we could call #check_out on any object type we wanted, say, the crown jewels. It wouldn&#39;t make much sense to be able to check out the crown jewels now would it? That is why we declare the #check_out method in the class, we want it to be only usable on objects of our Library class and nothing else.
-                    <br><br>&nbsp;&nbsp;&nbsp;&nbsp;So, now we have a method that lets us check out a book, but right now, we have no way of knowing if a book is checked out. It might be important to be able to know the status of @checked_out, which is why we have things called getters. Getters are convenient methods used for retrieving information on an object. Take a look:
-                    <br><br><img src="../imgs/GettersMethod.png">
-                    <br><br>&nbsp;&nbsp;&nbsp;&nbsp;This method #checked_out? simply returns the value of @checked_out to us. Now when we enter the code on line 21, we get the current value of @checked_out. Getters typically come with setters, methods used for changing values associated with an object. We will want a getter for @checked_out because we will want to change that value depending on its status, however for values like the book title, we will not want setters since that is not going to change.
-                    <br><br><img src="../imgs/Setters.png">
-                    <br><br>&nbsp;&nbsp;&nbsp;&nbsp;Our method #check_in changes the values of @checked_out, @date and @person to reflect the now checked in status. We want to remove the values of date and person because we don&#39;t want their information to be reflected later on, and we need to also set @checked_out to false so when we call #checked_out? we will be given the correct value.
-                    <br><br>&nbsp;&nbsp;&nbsp;&nbsp;Really, this topic is very in depth, and the options are endless for our Library class. Hopefully you can have a little bit better understanding of Ruby classes and objects. From here, we could add as many books as we wanted in the form of Library class objects, and have getters for the information about who checked out what book when.
-                    <br><br>              <!-- ADD YOUR POST HERE -->
-                  </p>
-                </td>
-              </tr>
-          </table>
-          <br><br>
-        <table class="posttable">
-              <tr>
-                <td class="post">
-                  <!-- INDENT: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -->
-                  <p>
-                    Tech: Hashes and Arrays                    <!-- TITLE OF POST -->
-                  </p>
-                </td>
-              </tr>
-              <tr>
-                <td>
-                  <p>
-                    Friday, August 29, 2014                <!-- TIME AND DATE OF POST -->
-                  </p>
-                </td>
-              </tr>
-              <tr>
-                <td class="post">
-                  <p>
-                    <br><br>&nbsp;&nbsp;&nbsp;&nbsp;One of the current squabbles going on around the tech world is that between PlayStation and Xbox in the form of the &#34;console-wars.&#34; Both companies are aggressively trying to give the &#39;ol 1-2 punch and it is getting ridiculous. There is a big difference between healthy competition, and hopes of destroying your opponent.
-                    <br><br>&nbsp;&nbsp;&nbsp;&nbsp;Growing up there has always been a sort of rift between the console companies and their clientele, sort of like Ford and Chevy truck owners, they just can&#39;t seem to get along. I started with a Ninetendo 64, then PlayStation 2, PlayStation 3, Wii and Xbox360. All the systems are fantastic in their own rights, but in the end I am a tried and true Xbox 360 guy.
-                    <br><br>&nbsp;&nbsp;&nbsp;&nbsp;There are certain things I really don&#39;t like about the PlayStation consoles, mostly interface and that dang controller.  I always hated the controller, from the days of the original PlayStation I have disliked it. The Xbox just fits the hands so much more, but I digress. What really is the problem here, is that it is ok to prefer a different system, and for the most part arguing over their quantifiable differences is useless because in the end, someone who wants an Xbox will get one, and the same for PlayStation (and other consoles of course, but I am just going to reference the leading ones).
-                    <br><br>&nbsp;&nbsp;&nbsp;&nbsp;One aspect that has been said to have kept consoles alive is console exclusive content and games. The big name here is Halo, and all its sequels. I love Halo, and it is the reason why I got an Xbox, and why I will probably get an Xbox One instead of the PS4. The thing is though, even when I had a PS3 and an Xbox360 at the same time, I could play one or the other, I almost never played the PS3, I even gave it to my brother because it got no use. This wasn&#39;t because I only played Halo anytime I gamed, in fact I have a pretty good collection of games, and at the time both consoles had a similarly sized selection on my shelf, but it was just the experience was different on Xbox and I preferred it. These console wars are ridiculous because they are putting in so much time, money and effort in to winning people over, yet I am curious how many people actually stand on the fence when a new generation of consoles comes out. There are certain aspects of the PS4 that draw me, but in the end it is the same exact scenario with the XBONE.
-                    <br><br>&nbsp;&nbsp;&nbsp;&nbsp;This feels like a rambling, and probably is, but what I would love to see from the big names on console gaming is more dedication to enhancing the experience of current users instead of trying to dangle goodies in front of the competitions customers trying to lure them over. Maybe this is actually happening and I am just seeing the goodie dangling, but as of right now, I am keeping my 360 until it dies in the hopes of getting backwards compatibility for all my 360 games to be used on the Xbox One.
-                    <br><br>              <!-- ADD YOUR POST HERE -->
-                  </p>
-                </td>
-              </tr>
-          </table>
-          <br><br>                 <!-- END POST TABLE -->
-        <table class="posttable">
-              <tr>
-                <td class="post">
-                  <!-- INDENT: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -->
-                  <p>
-                    Tech: Hashes and Arrays                    <!-- TITLE OF POST -->
-                  </p>
-                </td>
-              </tr>
-              <tr>
-                <td>
-                  <p>
-                    Friday, August 29, 2014                <!-- TIME AND DATE OF POST -->
-                  </p>
-                </td>
-              </tr>
-              <tr>
-                <td class="post">
-                  <p>
-                    <br><br>&nbsp;&nbsp;&nbsp;&nbsp;Lately, we have been working a lot with hashes and arrays in Ruby. Hashes are very new to me, and determining which data structure is appropriate in what scenario takes some getting used to.
-                    <br><br>&nbsp;&nbsp;&nbsp;&nbsp;An <a href="http://www.ruby-doc.org/core-2.1.2/Array.html">array</a> can be as simple as a list of numbers, or it can be as complicated as lists of lists of lists of objects (that sounds overly complicated, right?). To reference a value in an array, you need to use that values index. Array indices start from 0, so the first item in an array will always have an index of 0, and the last element in an array will have an index of array.length &ndash; 1. The #length might look new to you, and if it does, it is a method that returns the length of whatever array you call it on. Arrays can be great for storing things like a list of words to be randomly selected for a game of hang-man, or the details of a person&#39;s address.
-                    <br><br>&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://www.ruby-doc.org/core-2.1.2/Hash.html">Hashes</a> are buddies with arrays, but they can be used very differently. For one, hashes are not bound to strictly numerical indices like arrays, in fact, you can give a hash any index you want. To avoid confusion, hashes don&#39;t really use index, they call it a &#34;key.&#34;  Every key in a hash is matched with a certain value, thus getting us key/value pairs. You might want to store a list of all of your friends and their ages, so you would assign the key as the persons name, and the value as their age. From here you can see a myriad of methods associated with hashes that allow you to play with the data, with things like sorting, deleting and adding methods.
-                    <br><br>&nbsp;&nbsp;&nbsp;&nbsp;All I have learned so far in choosing is that it depends. I am even curious if a hash that has values of arrays, maybe that works, that could be pretty useful if you wanted to pull a list of numbers associated with a certain key. Luckily, there is quite a bit of overlap in methods, and they don&#39;t change naming conventions all over the place for each class, so you have a lot of repeated methods. Hashes are very cool, and I am glad Ruby has them, as arrays can sometimes be tricky to deal with, at least in the scenarios in which a hash is best.
-                    <br><br>              <!-- ADD YOUR POST HERE -->
-                  </p>
-                </td>
-              </tr>
-          </table>
-          <br><br>                 <!-- END POST TABLE -->
-        <table class="posttable">
-              <tr>
-                <td class="post">
-                  <!-- INDENT: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -->
-                  <p>
-                    Cultural Blog: Thinking Styles and Mindsets                    <!-- TITLE OF POST -->
-                  </p>
-                </td>
-              </tr>
-              <tr>
-                <td>
-                  <p>
-                    Friday, August 22, 2014                <!-- TIME AND DATE OF POST -->
-                  </p>
-                </td>
-              </tr>
-              <tr>
-                <td class="post">
-                  <p>
-                    <br>
-                    In doing the Gregorc Thinking style test, it turns out I am an Abstract Random, which makes a lot of sense. I did a little research into what that really meant, and was pretty surprised at how accurately it reflected my personality. Specifcally when I read this excerpt <a href="http://child-1st.typepad.com/my_weblog/2010/05/the-abstract-random-learning-style.html">online</a>:
-                    <br><br>
-                    &#34;Heightened instincts and intuition make the AR gifted at reading signals that to others might be invisible. In addition, the AR is strongly motivated by the needs of others. Not just sensing them, but doing something about them. Innocuous questions such as &#34;Which show do you want to watch?&#34; or &#34;Which game shall we play?&#34; or &#34;What shall we have for dinner tonight?&#34; often throw the AR into what looks like indecision (even though the AR knows clearly what he wants) because in making the choice, the AR worries that he will be depriving his companions of what they want!&#34;
-                    <br><br>
-                    &nbsp;&nbsp;&nbsp;&nbsp;This was a big &#34;Woah! That&#39;s me!&#34; moment. I am the type of person that has trouble picking music on the radio when in the car with others because I don&#39;t know how the others will feel about it, because after all I can pretty much be happy with anything myself. If there is a debate about what to do in a given evening, then I am trying hard to make sure the others involved are pleased with the decision, but at the same time dislike wasting time with indecision.
-                    <br><br>
-                    &nbsp;&nbsp;&nbsp;&nbsp;As this experience at DevBootcamp approaches the end of the third week of Phase-0, I have been pushed out of my comfort zone routinely. Right now, my biggest struggle is probably with the sharing of these blogs, the use of twitter, and in general exposing my work and weaknesses to everyone. I have a hard time posting all my work because I have this feeling of &#34;Who cares? If they want to see it then we can talk about it and I will share.&#34; every time, but that is starting to dissipate. This is very indicative of the <a href="http://web.cortland.edu/andersmd/learning/gregorc.htm">Abstract Random</a> mind such as mine, since difficulty with criticism, competition and explaining feelings are all weaknesses of the AR, and all of these things are tested with the blog posts and sharing them. When working through the curriculum for DBC I came across the part where we <em>had</em> to create a <a href="https://twitter.com/cgdibble">Twitter</a> account, and I will be honest, I was pissed&#8230;at first. While I still have similar feelings about Twitter, I at least have come to the understanding that this is me being forced out of my comfort zone (and boy, that comfort zone is comfy!), and putting my work out there for all to see. So, while I may not be using Twitter to post what kind of dinner I made, or me dumping ice water on my head, I am still using it to get more comfortable with exposing myself to the criticism of others, a weakness for us ARs. Now, I may still moan and groan when the final release for the current challenge I am working on is to post my work to Twitter, I am still excited because I am getting out there and growing as a person despite how uncomfortable it is outside of my comfy zone, which is basically sponsored by lay-z-boy.
-                    <br><br>
-                    &nbsp;&nbsp;&nbsp;&nbsp;Now, as far as <a href="http://www.brainpickings.org/index.php/2014/01/29/carol-dweck-mindset/">growth versus fixed mindset</a> I think it just darned well depends what aspect of me we are talking about. I always have felt that we can change who we are, but only to a degree. For example, my parents always say the mannerisms and behaviors we expressed as young children still exist almost identically today, yet here I am, feeling and seeming like a totally different (hopefully more mature) person. There are certain parts of us that are just are the way they are, and others that are up for change. I believe that I have been an abstract random since day one, which isn&#39;t to say that that can&#39;t change, but based on the data presented, it seems unlikely.  I have always had trouble sitting in class rooms listening to lectures, and was an ADD/ADHD diagnosed kid, but that all changed. The fact was, I couldn&#39;t stand that learning environment, so devoid of anything interesting or engaging. I was taking good ol prescription drugs for this diagnosis, and I took them for four years (sophomore year of high school to sophomore year in college). The decision to stop was mine and mine alone, I realized that upon finding something that did interest me and did engage me, I didn&#39;t need that crap anymore. That year in college I had declared my major in Forestry at Cal, a truly interesting topic that certainly gets you out of the class room a bit. At that point, I didn&#39;t need 60mg of Ritalin a morning to make me give a damn, I just had to go to class. That seems an awful lot like a ranting tangent but hey, I just want to illustrate that the growth was experienced in that I thought I had a fixed learning style when I started taking the drugs, and realized that that was false and that my mind was ready to grow, and it still is, so bring it on DevBootcamp.
-                    <br><br>              <!-- ADD YOUR POST HERE -->
-                  </p>
-                </td>
-              </tr>
-          </table>                    <!-- END POST TABLE -->
-          <br><br>
-        <table class="posttable">
-              <tr>
-                <td class="post">
-                  <!-- INDENT: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -->
-                  <p>
-                    Technical Blog: Why is JavaScript so Popular?                   <!-- TITLE OF POST -->
-                  </p>
-                </td>
-              </tr>
-              <tr>
-                <td>
-                  <p>
-                    Firday, August 22, 2014                <!-- TIME AND DATE OF POST -->
-                  </p>
-                </td>
-              </tr>
-              <tr>
-                <td class="post">
-                  <p>
-                    <br>
-                    &nbsp;&nbsp;&nbsp;&nbsp;For starters, JavaScript is in not related to Java at all, they are two entirely different languages, so we can thank who ever named JavaScript for that confusion. JavaScript is a dynamic object-oriented programming language that was first released in 1995. It was first brought into existence as a means of adding programs to browsers, specifically Netscape Navigator.
-                    <br><br>
-                   &nbsp;&nbsp;&nbsp;&nbsp;JavaScript has characteristics that allow it to be more comfortable to use for beginners, but because of this it is not stingy on what it allows. Being more liberal about what you can make in JavaScript also makes it more difficult to debug and find problems in your code.
-                  <br><br>
-                   &nbsp;&nbsp;&nbsp;&nbsp;Being an object-oriented language is great, it allows us to create objects that store information and to have much more workable code. Before object-oriented programming we were stuck with the linear flow stuff, so a program would run the code top to bottom and be done. JavaScript allows us to bring object-oriented programming to our browsers, and all major browsers run JavaScript.
-                    <br><br>              <!-- ADD YOUR POST HERE -->
-                  </p>
-                </td>
-              </tr>
-          </table>                  <!-- END POST TABLE -->
+          <tr>
+            <td>
+              <p class="aligncenter">
+                Tech: Class and Instance Methods             <!-- TITLE OF POST -->
+              </p>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <p class="aligncenter">
+                Saturday, September 13, 2014   <!-- TIME AND DATE OF POST -->
+              </p>
+            </td>
+          </tr>
+          <tr>
+            <td class="blogbody">
+              <p>
+                <br>&nbsp;&nbsp;&nbsp;&nbsp;When comparing class methods and instance methods, the most basic difference is that instance methods are called on an instance of the class, while class methods are called on the class name itself. Instance methods, called on objects, have access the instance variables associated with the object. Because instance variables are associated with objects, our class methods can not access them because&#184; after all&#184; we aren&#39;t giving it any object to look at when calling the method.
+                <br><br>&nbsp;&nbsp;&nbsp;&nbsp;The benefits of instance methods are that we can access an objects information&#184; and if we want&#184; we can manipulate it to our liking. We need to have these methods because of the way objects are made. Objects all contain information, and that information applies only to that object. This is made convenient because of instance variables that are the variables that store the data associated with each object.  We could do the same process without objects&#184; but then we would have to create every variable for every object&#184; which can be insanely cumbersome; imagine a database of a million people with all their personal information&#184; and imagine how many variables you would need to hard code if we didn&#39;t have objects! So, since objects store this information so well&#184; we need to have means of accessing and altering this information if necessary. This is where our instance methods come in. We may just want to ask the computer what one piece of data is, which means we would need to make a &#34;getter&#34; for that instance variable. To make sure we are referencing the specific variable value associated with the object, we have to call the getter method on the object itself, otherwise, how can it know what instance variable to return?
+                <br><br>&nbsp;&nbsp;&nbsp;&nbsp;Class methods are great for storing some sort of functionality that doesn&#39;t necessarily apply to specific objects.  Say we want a method that takes all the instance variables of an object and interpolates them into a nicely formatted string. This could be done by passing an object to the method and returning the interpolated string with the objects variables in the string.
+                <br><br>&nbsp;&nbsp;&nbsp;&nbsp;Really you can make all methods class methods, but this is clunkier as you would have to pass the object in questions to each method and run the code on that object. But having instance methods allows us to skip the process of passing the object because by calling the method on that object, then it is implicit that that is the object you want to refer to.
+                <br><br>&nbsp;&nbsp;&nbsp;&nbsp;Here is a small example of a class called People&#184; with an initialization method, which is our example of a class method, and a method #interpolate, which is an instance method. On line 14 I created an object called “me” that calls the initialization method of the People class, which is using the class method to create a new object. On line 15&#184; I call me#interpolate&#184; which calls the instance method #interpolate that takes all the data associated with &#34;me&#34; and prints/returns it as an interpolated string.
+                <br><br><img src="../imgs/PeopleClassW6TechBlog.png"> <!-- ADD YOUR POST HERE -->
+              <br>
+              </p>
+            </td>
+          </tr>
+        </table>
         <br><br>
         <table class="posttable">
-              <tr>
-                <td class="post">
-                  <!-- INDENT: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -->
-                  <p>
-                    Technical Blog: CSS Concepts Explained                    <!-- TITLE OF POST -->
-                  </p>
-                </td>
-              </tr>
-              <tr>
-                <td>
-                  <p>
-                    Sunday, August 17, 2014                <!-- TIME AND DATE OF POST -->
-                  </p>
-                </td>
-              </tr>
-              <tr>
-                <td class="post">
-                  <p>
-                    <br>
-                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;For this weeks technical blog, the topic is CSS concepts and some differences between them.We will start with some basic concepts: Margin, Border, and Padding. These three things can be confusing to grasp at first as they are mostly just slightly different. I like to think about it like this; Imagine you are looking at a small town from a birds eye view, such that you can see all the buildings in the town. Those buildings represent elements on your website. The padding of an element is how much space is added inside the element. For example, the padding in our town example would be the space within a building that a person can roam. A small building without much space would be an element with only a little bit of padding, while large buildings would have lots of padding. Or you can think of it being the amount of yard/property a house has around before butting up against the next piece of property (element).
-                    <br><br>&nbsp;&nbsp;&nbsp;&nbsp;Border is basically the outline of your elements. The house elements on our town website all have walls, and those walls outline the structure. Some structures like sheds might have thin walls (borders), while others might have thick ones.
-                    <br><br>&nbsp;&nbsp;&nbsp;&nbsp;Margin is the amount of space outside of one elements border, that separates it from the next element. Imagine if people really disliked their neighbors, and could add fifty feet of no-mans-land space between their property and their neighbors. That would be adding a margin between their two elements.
-                    <br><br>&nbsp;&nbsp;&nbsp;&nbsp;In CSS there are classes and ids. These handy tools allow you to be more specific about how you want certain elements styled, and to do it from your CSS document. Ids can only be used on one element on a page, and are designated with a # before the name of the id ( #idName).
-                    <br><br>&nbsp;&nbsp;&nbsp;&nbsp;Classes can be applied to any number of elements, including elements with ids already. Elements can also have multiple classes each, you can have 5 elements with an id and 4 classes each assigned to it if you wanted, as long as it was only one id. Classes are denoted by a period at the start of the name, so: .className would be your syntax in your stylesheet. You can specify that classes only apply to certain elements by doing something like: div.className{}. Below you can see the class that is used to set up the table this blog is in. Each blog post is in its own table, therefore it is best to make this a class so that I can assign it to each blog post table.
-                    <br>
-                    <img src="../imgs/w2-technical-classexample.png">
-                    <br><br>&nbsp;&nbsp;&nbsp;&nbsp;In positioning elements, you can use: absolute, fixed and relative. Absolute positions the element relative to its first positioned ancestor element. Fixed positions the element relative to the browser window. Relative positions the element relative to its normal position. So, a relative position with left:20 will add 20 pixels to the elements left position.
-                    <br><br>&nbsp;&nbsp;&nbsp;&nbsp;The display property has two big values: inline and inline-block, as well as a long list of other possible values. Inline block displays the elements without starting a new line. So if you have a div that has a ul in it, if you do inline block, the list items will appear in a row. Using inline block allows you to form elements inline (such as with just using inline). The difference is that you get to treat it like a block in that you can still set width/height, margins and padding. This would cause a list of items to be in their own little boxes (blocks), while still being horizontally listed.
-                    <br><br>              <!-- ADD YOUR POST HERE -->
-                  </p>
-                </td>
-              </tr>
-          </table>                  <!-- END POST TABLE -->
-          <br><br>
-          <table class="posttable">
-              <tr>
-                <td class="post">
-                  <!-- INDENT: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -->
-                  <p>
-                    Cultural Blog: Chefs in the Kitchen                    <!-- TITLE OF POST -->
-                  </p>
-                </td>
-              </tr>
-              <tr>
-                <td>
-                  <p>
-                    Sunday, August 10, 2014                <!-- TIME AND DATE OF POST -->
-                  </p>
-                </td>
-              </tr>
-              <tr>
-                <td class="post">
-                  <p>
-                    <br>
-                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The analogy of kitchen vs restaurant really is awesome. It is the perfect example of the type of mindset that is needed for DevBootcamp and development in general. I can definitely relate to his talk about fears and expectations in the Phase-0 approach to DBC. My own feelings have oscillated some, as I have moments that I fear inadequacy, and others where I wonder if it will be enough.
-                    <br><br>
-                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;I continue to be impressed with the mindsets of both my fellow boots, and the instructors at DBC. Everyone emits a strong sense of individuality and desire to achieve, yet the urge to work together creates strong working relationships and skill building. I really am looking forward to working and learning in this environment, and expect it will exceed my expectations. Progressing through Phase-0 is only reinforcing my excitement to be in this program, but there is of course the ever present jitters about being in such a competitive program will remain!
-                    <br><br>              <!-- ADD YOUR POST HERE -->
-                  </p>
-                </td>
-              </tr>
-          </table>                  <!-- END POST TABLE -->
-          <br><br>
-          <table class="posttable">
-              <tr>
-                <td class="post">
-
-                  <p>
-                    Technical: Comparing My Favorite Websites  <!-- TITLE OF POST -->
-                  </p>
-                </td>
-              </tr>
-              <tr>
-                <td>
-                  <p>
-                    Saturday, August 9, 2014                <!-- TIME AND DATE OF POST -->
-                  </p>
-                </td>
-              </tr>
-              <tr>
-                <td class="post">
-                  <p>
-                    <br>
-                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;For my honorary first blog post, commemorating my first week of phase-0 at DevBootcamp, the topic is about my three favorite websites and the pros and cons of each. Seeing as the future will bring a lot of web development, this could be an important exercise that will be revisited in the future. Now, these three sites are going to be in no particular order. I am not sure I could really boil it down to a top three, there are just too many factors.
-                    <br><br>
-                    My first site is going to be <a href="http://www.polygon.com/">Polygon</a>:
-                    <br><br>
-                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Polygon is a site that is dedicated to gaming and the culture that thrives on gaming.  Having a gaming news site really is a niche, and it provides more richer content than an online news site that tries to cover all topics. One of the cool things I love about this site is that it doesn&rsquo;t regurgitate old articles just because something in the archive got a few clicks, the content is new and always flowing.
-                    <br><br>
-                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Looking at Polygon from a distance, you are drawn to the articles, and pretty much every article has a corresponding image to help draw you in. The header of the site is a grid of the top/newest articles, featuring 4 or 5 different options. These options aren&rsquo;t just your basic text link, they are awesome and curious photos with the article title overlaid. These links are great because they give you more to base your choice to click on other than just the wording of the title.
-                    <br><br>
-                     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The navigation bar allows you to quickly and efficiently narrow down the topics you want covered.  You can even choose what gaming system you want to focus on, or video reviews of games of all types. The nav bar remains in place no matter where on the site you are, and to make it easier, Polygon will suggest related articles at the bottom of articles you read.
-                    <br><br>
-                    5 adjectives about the website visually: organized, attractive,  themed,  divided, flowing
-                    <br><br>
-                    5 adjectives to describe content, focus and purpose: gaming, broad-spectrum,  informative, dedicated,  well-stocked.
-                    <br><br>
-                    Some adjectives that I feel after being on the site for a while: bored (Well, I can only read about gaming news for so long), anxious (new games coming out!),  entertained.
-                    <br><br>
-                    Polygon is also a branch of <a href="http://www.theverge.com/">The Verge</a> which is the more generalized tech world news site, which has many of the same qualities as Polygon does.
-                    <br><br>
-                    Next we have <a href="http://online.wsj.com/home-page">Wall Street Journal</a>:
-                    <br><br>
-                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The Wall  Street Journal does a good job of incorporating technology into the timeless newspaper style layout.  At a glance your eyes are drawn to the most prominent articles, the front pagers.  The most prominent feature on the site is the WSJ logo, it seems to pop out too much in its box in the top left corner.  It would look better with a centered and written out title, as opposed to the current large text &ldquo;WSJ.&rdquo;
-                    <br><br>
-                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;WSJ takes a large amount of content in the form of news articles and links, and organizes it into categories. Featured content gets the more prominent locations and visuals, while other content is relegated to text links on the margins.  Their layout allows the less prominent content to still be quite visible and accessible.
-                    <br><br>
-                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;For a site that really is loaded with content, and is re-loaded every day, the navigation lends itself to easy use. The navigation bar has a well thought out selection of topics to choose from to narrow your search for interesting articles.
-                    <br><br>
-                    5 adjectives to describe the site visually: loaded, organized,  compartmentalized, relevant, intuitive
-                    <br><br>
-                    5 adjectives to describe content, focus and purpose: informative, detailed,  comprehensive, current, dedicated.
-                    <br><br>
-                    Some adjectives describing how I feel after some time on the site: educated, informed, overwhelmed.
-                   <br><br>
-                    My final choice is going to have to be <a href="http://www.imdb.com/">IMDB</a>:
-                    <br><br>
-                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;IMDb is a website dedicated to information on television entertainment. This site gives a wealth of information for each and every move, tv show, or actor/actress I have ever looked up, and proves to be quite comprehensive.  If you ever have one of those &ldquo;Oh who was that guy in that movie that one time?&rdquo; moments, IMDb is the place to look.
-                    <br><br>
-                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The homepage offers interesting facts and videos/graphics of recent or older media. I tend to not go straight to the homepage as I usually get to this site through a Google search of a movie or actor. What really is the essential part of the home page is the search bar, and it is the first thing your eye catches. The search function is very effective, and will yield specific results. From farther back, your eye tends to be moved to the different videos and images screaming for attention lower down on the page.
-                    <br><br>
-                    5 adjectives to describe the  site visually: media rich, focused, informative,  alluring, inquisitive.
-                    <br><br>
-                    5 adjectives to describe content, focus and purpose: specific, thorough, related, extensive, complete.
-                    <br><br>
-                    Some adjectives to describe how I feel after some time on the site: satisfied (Gotta love getting that movie trivia factoid answered), entertained.
-                    <br>
-                    <br>             <!-- ADD YOUR POST HERE -->
-                  </p>
-                </td>
-              </tr>
-          </table>                  <!-- END POST TABLE -->
+          <tr>
+            <td>
+              <p class="aligncenter">
+                Culture: Pairing and Me              <!-- TITLE OF POST -->
+              </p>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <p class="aligncenter">
+                Sunday, September 7, 2014   <!-- TIME AND DATE OF POST -->
+              </p>
+            </td>
+          </tr>
+          <tr>
+            <td class="blogbody">
+              <p>
+                <br>&nbsp;&nbsp;&nbsp;&nbsp;This is the final day of week 5, phase 0 of DevBootcamp and so far I have had 10 pairing sessions. These sessions have had a lot of variation in terms of their effectiveness and how much I have enjoyed them.
+                <br><br>&nbsp;&nbsp;&nbsp;&nbsp;I took a couple programming classes in the spring, primarily a Java course, and we spent a lot of our time working together to solve the problems. Between that experience, and my experience in pairing with DBC, I have found that pairing is vastly more beneficial to learning and problem solving than working alone.
+                <br><br>&nbsp;&nbsp;&nbsp;&nbsp;It is important to have a strong line of communication between a pair to really get the benefits of talking through possible solutions. In the pairing sessions I have had, those in which we were both chatting back and forth about the problem and possible ways to solve it, were not only the most productive, but I also learned more.
+                <br><br>&nbsp;&nbsp;&nbsp;&nbsp;I had a long string of great pairs, and wasn&#39;t sure what would define a <em>bad</em> pairing session, that is, until I had one. What made it a negative experience was that the whole time I felt that my opinions were not being considered, and that I was being looked down upon. I could go on about the one more negative experience, but really what I took from it was that the pair relationship has to be one of respect and support. You need to make your pair feel respected so they are comfortable sharing their views and ideas with you, and really disrespect can be really distracting from the goal of the challenge. A good pair is supportive by giving honest, but <em>respectful</em>, real time feedback, because this is how you really talk through a challenge together. You also need to support them but providing them with any tricks you more efficient methods you may know, or by explaining confusing parts so that you are both on the same page technically.
+                <br><br>&nbsp;&nbsp;&nbsp;&nbsp;Feedback:
+                <br><br>&nbsp;&nbsp;&nbsp;&nbsp;After getting all the feedback, I wish more that I knew who wrote each piece. Some bits of information provided in feedback are more helpful when one can apply those inputs to your experience too, so you can analyze their points from your point of view. Leaving it anonymous just seems to be keeping you from getting the most out of a piece of feedback. The less helpful feedbacks tend to but what I think are the earlier ones, where we are all practicing giving effective feedback. Most feedback provides me with at least some type of useful information for improving my mind set and pairing skills. I wish the feedbackinator would let me know who I have written feedback for since after a long day of challenges and pairing, I have had 3 pairs in a day before, I can&#39;t quite remember who I wrote feedback for and who I didn&#39;t. It would be very helpful to know who I wrote it for!
+               <br><br>&nbsp;&nbsp;&nbsp;&nbsp;Pairing is great, especially with us all working remotely, it helps us build relationships and pairing skills for when the on campus time starts.  Feedback is great, but hopefully we can get to the point where we will be able to communicate this information in person, without using the anonymous feedbackinator. I would prefer to hear from the pair partner directly, so I can reflect more effectively on how to improve.
+                <br><br>              <!-- ADD YOUR POST HERE -->
+              </p>
+            </td>
+          </tr>
+        </table>
+        <br><br>
+        <table class="posttable">
+          <tr>
+            <td>
+              <p class="aligncenter">
+                Tech: Ruby Classes              <!-- TITLE OF POST -->
+              </p>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <p class="aligncenter">
+                Saturday, September 6, 2014   <!-- TIME AND DATE OF POST -->
+              </p>
+            </td>
+          </tr>
+          <tr>
+            <td class="blogbody">
+              <p>
+                &nbsp;&nbsp;&nbsp;&nbsp;Object Oriented programming languages are all about objects and classes. Classes allow us to group similar objects together to minimize the work we need to do to create useful methods. For instance, if we did not have an Array class, with a list of a few dozen instance methods, then we would have to define each method every time we wanted to manipulate an array object we create. Because of classes, our Array class has that wonderful list of methods that can be applied to any object of that class. This is great because say we had a class called Library, where each object of the Library class was an individual book. We would not want to have to create a separate #check_out method for each and every book in the Library! That would be tedious and unnecessary. This is why we would create one single #check_out method in our Library class that will allow us to check out <em>any</em> book we want, by just calling that method on our object (remember,  each book is an object).
+                <br><br>&nbsp;&nbsp;&nbsp;&nbsp;First, lets take a few steps back and talk about the creation of each object (book) in our Library class.  Ruby allows us to create an #initialize method in our class, that is automatically called whenever we perform a Library#new call. This allows us to initialize a new object of the Library class.
+                <br><br><img src="../imgs/NewObject1.png">
+                <br><br>&nbsp;&nbsp;&nbsp;&nbsp;Here, line 9 creates a new object called book1 that is of the Library class, and it passes a title, author and ISBN to our initialize method.  Again, this is just like if we were to say:
+                <br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;book1 = Library.initialize(&#34;The Moon Is Down&#34;, &#34;John Steinbeck&#34;, &#34;1239755346&#34;).
+                <br><br>&nbsp;&nbsp;&nbsp;&nbsp;These pieces of information, or arguments, must be in the exact order you specify in the initialize declaration, otherwise you will end up with some funky titles, authors and ISBNs.
+                <br><br>&nbsp;&nbsp;&nbsp;&nbsp;Now that we have created a brand new object, book1, on line 1, we want to use a newly made Library#check_out method on it. Because book1 is an object or our Library class, we can use this #check_out method. This is because #check_out is an instance method, which means it can be used on instances of the class, and each object is an instance of a class, thus the instance method #check_out  is usable on the instance of Library class book1.
+                <br><br><img src="../imgs/CheckOutMethod.png">
+                <br><br>&nbsp;&nbsp;&nbsp;&nbsp;Lets take a look at the newly created instance method #check_out. This instance method has two parameters, the date and person. We have to pass this information to the method so we can know who checked out our book and when. Declaring this method within the class makes it an instance method for our Library class. What if we put it outside of the class you say? Well, then we could call #check_out on any object type we wanted, say, the crown jewels. It wouldn&#39;t make much sense to be able to check out the crown jewels now would it? That is why we declare the #check_out method in the class, we want it to be only usable on objects of our Library class and nothing else.
+                <br><br>&nbsp;&nbsp;&nbsp;&nbsp;So, now we have a method that lets us check out a book, but right now, we have no way of knowing if a book is checked out. It might be important to be able to know the status of @checked_out, which is why we have things called getters. Getters are convenient methods used for retrieving information on an object. Take a look:
+                <br><br><img src="../imgs/GettersMethod.png">
+                <br><br>&nbsp;&nbsp;&nbsp;&nbsp;This method #checked_out? simply returns the value of @checked_out to us. Now when we enter the code on line 21, we get the current value of @checked_out. Getters typically come with setters, methods used for changing values associated with an object. We will want a getter for @checked_out because we will want to change that value depending on its status, however for values like the book title, we will not want setters since that is not going to change.
+                <br><br><img src="../imgs/Setters.png">
+                <br><br>&nbsp;&nbsp;&nbsp;&nbsp;Our method #check_in changes the values of @checked_out, @date and @person to reflect the now checked in status. We want to remove the values of date and person because we don&#39;t want their information to be reflected later on, and we need to also set @checked_out to false so when we call #checked_out? we will be given the correct value.
+                <br><br>&nbsp;&nbsp;&nbsp;&nbsp;Really, this topic is very in depth, and the options are endless for our Library class. Hopefully you can have a little bit better understanding of Ruby classes and objects. From here, we could add as many books as we wanted in the form of Library class objects, and have getters for the information about who checked out what book when.
+                <br><br>              <!-- ADD YOUR POST HERE -->
+              </p>
+            </td>
+          </tr>
+        </table>
+        <br><br>
+        <table class="posttable">
+          <tr>
+            <td>
+              <p class="aligncenter">
+                Tech: Hashes and Arrays                    <!-- TITLE OF POST -->
+              </p>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <p class="aligncenter">
+                Friday, August 29, 2014                <!-- TIME AND DATE OF POST -->
+              </p>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <p>
+                <br><br>&nbsp;&nbsp;&nbsp;&nbsp;One of the current squabbles going on around the tech world is that between PlayStation and Xbox in the form of the &#34;console-wars.&#34; Both companies are aggressively trying to give the &#39;ol 1-2 punch and it is getting ridiculous. There is a big difference between healthy competition, and hopes of destroying your opponent.
+                <br><br>&nbsp;&nbsp;&nbsp;&nbsp;Growing up there has always been a sort of rift between the console companies and their clientele, sort of like Ford and Chevy truck owners, they just can&#39;t seem to get along. I started with a Ninetendo 64, then PlayStation 2, PlayStation 3, Wii and Xbox360. All the systems are fantastic in their own rights, but in the end I am a tried and true Xbox 360 guy.
+                <br><br>&nbsp;&nbsp;&nbsp;&nbsp;There are certain things I really don&#39;t like about the PlayStation consoles, mostly interface and that dang controller.  I always hated the controller, from the days of the original PlayStation I have disliked it. The Xbox just fits the hands so much more, but I digress. What really is the problem here, is that it is ok to prefer a different system, and for the most part arguing over their quantifiable differences is useless because in the end, someone who wants an Xbox will get one, and the same for PlayStation (and other consoles of course, but I am just going to reference the leading ones).
+                <br><br>&nbsp;&nbsp;&nbsp;&nbsp;One aspect that has been said to have kept consoles alive is console exclusive content and games. The big name here is Halo, and all its sequels. I love Halo, and it is the reason why I got an Xbox, and why I will probably get an Xbox One instead of the PS4. The thing is though, even when I had a PS3 and an Xbox360 at the same time, I could play one or the other, I almost never played the PS3, I even gave it to my brother because it got no use. This wasn&#39;t because I only played Halo anytime I gamed, in fact I have a pretty good collection of games, and at the time both consoles had a similarly sized selection on my shelf, but it was just the experience was different on Xbox and I preferred it. These console wars are ridiculous because they are putting in so much time, money and effort in to winning people over, yet I am curious how many people actually stand on the fence when a new generation of consoles comes out. There are certain aspects of the PS4 that draw me, but in the end it is the same exact scenario with the XBONE.
+                <br><br>&nbsp;&nbsp;&nbsp;&nbsp;This feels like a rambling, and probably is, but what I would love to see from the big names on console gaming is more dedication to enhancing the experience of current users instead of trying to dangle goodies in front of the competitions customers trying to lure them over. Maybe this is actually happening and I am just seeing the goodie dangling, but as of right now, I am keeping my 360 until it dies in the hopes of getting backwards compatibility for all my 360 games to be used on the Xbox One.
+                <br><br><!--ADD YOUR POST HERE-->
+              </p>
+            </td>
+          </tr>
+        </table>
+        <br><br>  <!-- END POST TABLE -->
+        <table class="posttable">
+          <tr>
+            <td>
+              <p class="aligncenter">
+                Tech: Hashes and Arrays                    <!-- TITLE OF POST -->
+              </p>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <p class="aligncenter">
+                Friday, August 29, 2014                <!-- TIME AND DATE OF POST -->
+              </p>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <p>
+                <br><br>&nbsp;&nbsp;&nbsp;&nbsp;Lately, we have been working a lot with hashes and arrays in Ruby. Hashes are very new to me, and determining which data structure is appropriate in what scenario takes some getting used to.
+                <br><br>&nbsp;&nbsp;&nbsp;&nbsp;An <a href="http://www.ruby-doc.org/core-2.1.2/Array.html">array</a> can be as simple as a list of numbers, or it can be as complicated as lists of lists of lists of objects (that sounds overly complicated, right?). To reference a value in an array, you need to use that values index. Array indices start from 0, so the first item in an array will always have an index of 0, and the last element in an array will have an index of array.length &ndash; 1. The #length might look new to you, and if it does, it is a method that returns the length of whatever array you call it on. Arrays can be great for storing things like a list of words to be randomly selected for a game of hang-man, or the details of a person&#39;s address.
+                <br><br>&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://www.ruby-doc.org/core-2.1.2/Hash.html">Hashes</a> are buddies with arrays, but they can be used very differently. For one, hashes are not bound to strictly numerical indices like arrays, in fact, you can give a hash any index you want. To avoid confusion, hashes don&#39;t really use index, they call it a &#34;key.&#34;  Every key in a hash is matched with a certain value, thus getting us key/value pairs. You might want to store a list of all of your friends and their ages, so you would assign the key as the persons name, and the value as their age. From here you can see a myriad of methods associated with hashes that allow you to play with the data, with things like sorting, deleting and adding methods.
+                <br><br>&nbsp;&nbsp;&nbsp;&nbsp;All I have learned so far in choosing is that it depends. I am even curious if a hash that has values of arrays, maybe that works, that could be pretty useful if you wanted to pull a list of numbers associated with a certain key. Luckily, there is quite a bit of overlap in methods, and they don&#39;t change naming conventions all over the place for each class, so you have a lot of repeated methods. Hashes are very cool, and I am glad Ruby has them, as arrays can sometimes be tricky to deal with, at least in the scenarios in which a hash is best.
+                <br><br><!-- ADD YOUR POST HERE -->
+              </p>
+            </td>
+          </tr>
+        </table>
+        <br><br><!-- END POST TABLE -->
+        <table class="posttable">
+          <tr>
+            <td>
+              <p class="aligncenter">
+                Cultural Blog: Thinking Styles and Mindsets                    <!-- TITLE OF POST -->
+              </p>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <p class="aligncenter">
+                Friday, August 22, 2014                <!-- TIME AND DATE OF POST -->
+              </p>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <p>
+                <br>
+                In doing the Gregorc Thinking style test, it turns out I am an Abstract Random, which makes a lot of sense. I did a little research into what that really meant, and was pretty surprised at how accurately it reflected my personality. Specifcally when I read this excerpt <a href="http://child-1st.typepad.com/my_weblog/2010/05/the-abstract-random-learning-style.html">online</a>:
+                <br><br>
+                &#34;Heightened instincts and intuition make the AR gifted at reading signals that to others might be invisible. In addition, the AR is strongly motivated by the needs of others. Not just sensing them, but doing something about them. Innocuous questions such as &#34;Which show do you want to watch?&#34; or &#34;Which game shall we play?&#34; or &#34;What shall we have for dinner tonight?&#34; often throw the AR into what looks like indecision (even though the AR knows clearly what he wants) because in making the choice, the AR worries that he will be depriving his companions of what they want!&#34;
+                <br><br>
+                &nbsp;&nbsp;&nbsp;&nbsp;This was a big &#34;Woah! That&#39;s me!&#34; moment. I am the type of person that has trouble picking music on the radio when in the car with others because I don&#39;t know how the others will feel about it, because after all I can pretty much be happy with anything myself. If there is a debate about what to do in a given evening, then I am trying hard to make sure the others involved are pleased with the decision, but at the same time dislike wasting time with indecision.
+                <br><br>
+                &nbsp;&nbsp;&nbsp;&nbsp;As this experience at DevBootcamp approaches the end of the third week of Phase-0, I have been pushed out of my comfort zone routinely. Right now, my biggest struggle is probably with the sharing of these blogs, the use of twitter, and in general exposing my work and weaknesses to everyone. I have a hard time posting all my work because I have this feeling of &#34;Who cares? If they want to see it then we can talk about it and I will share.&#34; every time, but that is starting to dissipate. This is very indicative of the <a href="http://web.cortland.edu/andersmd/learning/gregorc.htm">Abstract Random</a> mind such as mine, since difficulty with criticism, competition and explaining feelings are all weaknesses of the AR, and all of these things are tested with the blog posts and sharing them. When working through the curriculum for DBC I came across the part where we <em>had</em> to create a <a href="https://twitter.com/cgdibble">Twitter</a> account, and I will be honest, I was pissed&#8230;at first. While I still have similar feelings about Twitter, I at least have come to the understanding that this is me being forced out of my comfort zone (and boy, that comfort zone is comfy!), and putting my work out there for all to see. So, while I may not be using Twitter to post what kind of dinner I made, or me dumping ice water on my head, I am still using it to get more comfortable with exposing myself to the criticism of others, a weakness for us ARs. Now, I may still moan and groan when the final release for the current challenge I am working on is to post my work to Twitter, I am still excited because I am getting out there and growing as a person despite how uncomfortable it is outside of my comfy zone, which is basically sponsored by lay-z-boy.
+                <br><br>
+                &nbsp;&nbsp;&nbsp;&nbsp;Now, as far as <a href="http://www.brainpickings.org/index.php/2014/01/29/carol-dweck-mindset/">growth versus fixed mindset</a> I think it just darned well depends what aspect of me we are talking about. I always have felt that we can change who we are, but only to a degree. For example, my parents always say the mannerisms and behaviors we expressed as young children still exist almost identically today, yet here I am, feeling and seeming like a totally different (hopefully more mature) person. There are certain parts of us that are just are the way they are, and others that are up for change. I believe that I have been an abstract random since day one, which isn&#39;t to say that that can&#39;t change, but based on the data presented, it seems unlikely.  I have always had trouble sitting in class rooms listening to lectures, and was an ADD/ADHD diagnosed kid, but that all changed. The fact was, I couldn&#39;t stand that learning environment, so devoid of anything interesting or engaging. I was taking good ol prescription drugs for this diagnosis, and I took them for four years (sophomore year of high school to sophomore year in college). The decision to stop was mine and mine alone, I realized that upon finding something that did interest me and did engage me, I didn&#39;t need that crap anymore. That year in college I had declared my major in Forestry at Cal, a truly interesting topic that certainly gets you out of the class room a bit. At that point, I didn&#39;t need 60mg of Ritalin a morning to make me give a damn, I just had to go to class. That seems an awful lot like a ranting tangent but hey, I just want to illustrate that the growth was experienced in that I thought I had a fixed learning style when I started taking the drugs, and realized that that was false and that my mind was ready to grow, and it still is, so bring it on DevBootcamp.
+                <br><br><!-- ADD YOUR POST HERE -->
+              </p>
+            </td>
+          </tr>
+        </table> <!-- END POST TABLE -->
+        <br><br>
+        <table class="posttable">
+          <tr>
+            <td>
+              <p class="aligncenter">
+                Technical Blog: Why is JavaScript so Popular?<!-- TITLE OF POST -->
+              </p>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <p class="aligncenter">
+                Firday, August 22, 2014                <!-- TIME AND DATE OF POST -->
+              </p>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <p>
+                <br>
+                &nbsp;&nbsp;&nbsp;&nbsp;For starters, JavaScript is in not related to Java at all, they are two entirely different languages, so we can thank who ever named JavaScript for that confusion. JavaScript is a dynamic object-oriented programming language that was first released in 1995. It was first brought into existence as a means of adding programs to browsers, specifically Netscape Navigator.
+                <br><br>
+                &nbsp;&nbsp;&nbsp;&nbsp;JavaScript has characteristics that allow it to be more comfortable to use for beginners, but because of this it is not stingy on what it allows. Being more liberal about what you can make in JavaScript also makes it more difficult to debug and find problems in your code.
+                <br><br>
+                &nbsp;&nbsp;&nbsp;&nbsp;Being an object-oriented language is great, it allows us to create objects that store information and to have much more workable code. Before object-oriented programming we were stuck with the linear flow stuff, so a program would run the code top to bottom and be done. JavaScript allows us to bring object-oriented programming to our browsers, and all major browsers run JavaScript.
+                <br><br><!-- ADD YOUR POST HERE -->
+              </p>
+            </td>
+          </tr>
+        </table> <!-- END POST TABLE -->
+        <br><br>
+        <table class="posttable">
+          <tr>
+            <td>
+              <!-- INDENT: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -->
+              <p class="aligncenter">
+                Technical Blog: CSS Concepts Explained                    <!-- TITLE OF POST -->
+              </p>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <p class="aligncenter">
+                Sunday, August 17, 2014                <!-- TIME AND DATE OF POST -->
+              </p>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <p>
+                <br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;For this weeks technical blog, the topic is CSS concepts and some differences between them.We will start with some basic concepts: Margin, Border, and Padding. These three things can be confusing to grasp at first as they are mostly just slightly different. I like to think about it like this; Imagine you are looking at a small town from a birds eye view, such that you can see all the buildings in the town. Those buildings represent elements on your website. The padding of an element is how much space is added inside the element. For example, the padding in our town example would be the space within a building that a person can roam. A small building without much space would be an element with only a little bit of padding, while large buildings would have lots of padding. Or you can think of it being the amount of yard/property a house has around before butting up against the next piece of property (element).
+                <br><br>&nbsp;&nbsp;&nbsp;&nbsp;Border is basically the outline of your elements. The house elements on our town website all have walls, and those walls outline the structure. Some structures like sheds might have thin walls (borders), while others might have thick ones.
+                <br><br>&nbsp;&nbsp;&nbsp;&nbsp;Margin is the amount of space outside of one elements border, that separates it from the next element. Imagine if people really disliked their neighbors, and could add fifty feet of no-mans-land space between their property and their neighbors. That would be adding a margin between their two elements.
+                <br><br>&nbsp;&nbsp;&nbsp;&nbsp;In CSS there are classes and ids. These handy tools allow you to be more specific about how you want certain elements styled, and to do it from your CSS document. Ids can only be used on one element on a page, and are designated with a # before the name of the id ( #idName).
+                <br><br>&nbsp;&nbsp;&nbsp;&nbsp;Classes can be applied to any number of elements, including elements with ids already. Elements can also have multiple classes each, you can have 5 elements with an id and 4 classes each assigned to it if you wanted, as long as it was only one id. Classes are denoted by a period at the start of the name, so: .className would be your syntax in your stylesheet. You can specify that classes only apply to certain elements by doing something like: div.className{}. Below you can see the class that is used to set up the table this blog is in. Each blog post is in its own table, therefore it is best to make this a class so that I can assign it to each blog post table.
+                <br>
+                <img src="../imgs/w2-technical-classexample.png">
+                <br><br>&nbsp;&nbsp;&nbsp;&nbsp;In positioning elements, you can use: absolute, fixed and relative. Absolute positions the element relative to its first positioned ancestor element. Fixed positions the element relative to the browser window. Relative positions the element relative to its normal position. So, a relative position with left:20 will add 20 pixels to the elements left position.
+                <br><br>&nbsp;&nbsp;&nbsp;&nbsp;The display property has two big values: inline and inline-block, as well as a long list of other possible values. Inline block displays the elements without starting a new line. So if you have a div that has a ul in it, if you do inline block, the list items will appear in a row. Using inline block allows you to form elements inline (such as with just using inline). The difference is that you get to treat it like a block in that you can still set width/height, margins and padding. This would cause a list of items to be in their own little boxes (blocks), while still being horizontally listed.
+                <br><br><!-- ADD YOUR POST HERE -->
+              </p>
+            </td>
+          </tr>
+        </table><!-- END POST TABLE -->
+        <br><br>
+        <table class="posttable">
+          <tr>
+            <td>
+              <p class="aligncenter">
+                Cultural Blog: Chefs in the Kitchen                    <!-- TITLE OF POST -->
+              </p>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <p class="aligncenter">
+                Sunday, August 10, 2014                <!-- TIME AND DATE OF POST -->
+              </p>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <p>
+                <br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The analogy of kitchen vs restaurant really is awesome. It is the perfect example of the type of mindset that is needed for DevBootcamp and development in general. I can definitely relate to his talk about fears and expectations in the Phase-0 approach to DBC. My own feelings have oscillated some, as I have moments that I fear inadequacy, and others where I wonder if it will be enough.
+                <br><br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;I continue to be impressed with the mindsets of both my fellow boots, and the instructors at DBC. Everyone emits a strong sense of individuality and desire to achieve, yet the urge to work together creates strong working relationships and skill building. I really am looking forward to working and learning in this environment, and expect it will exceed my expectations. Progressing through Phase-0 is only reinforcing my excitement to be in this program, but there is of course the ever present jitters about being in such a competitive program will remain!
+                <br><br><!-- ADD YOUR POST HERE -->
+              </p>
+            </td>
+          </tr>
+        </table><!-- END POST TABLE -->
+        <br><br>
+        <table class="posttable">
+          <tr>
+            <td>
+              <p class="aligncenter">
+                Technical: Comparing My Favorite Websites  <!-- TITLE OF POST -->
+              </p>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <p class="aligncenter">
+                Saturday, August 9, 2014                <!-- TIME AND DATE OF POST -->
+              </p>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <p>
+                <br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;For my honorary first blog post, commemorating my first week of phase-0 at DevBootcamp, the topic is about my three favorite websites and the pros and cons of each. Seeing as the future will bring a lot of web development, this could be an important exercise that will be revisited in the future. Now, these three sites are going to be in no particular order. I am not sure I could really boil it down to a top three, there are just too many factors.
+                <br><br>
+                My first site is going to be <a href="http://www.polygon.com/">Polygon</a>:
+                <br><br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Polygon is a site that is dedicated to gaming and the culture that thrives on gaming.  Having a gaming news site really is a niche, and it provides more richer content than an online news site that tries to cover all topics. One of the cool things I love about this site is that it doesn&rsquo;t regurgitate old articles just because something in the archive got a few clicks, the content is new and always flowing.
+                <br><br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Looking at Polygon from a distance, you are drawn to the articles, and pretty much every article has a corresponding image to help draw you in. The header of the site is a grid of the top/newest articles, featuring 4 or 5 different options. These options aren&rsquo;t just your basic text link, they are awesome and curious photos with the article title overlaid. These links are great because they give you more to base your choice to click on other than just the wording of the title.
+                <br><br>
+                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The navigation bar allows you to quickly and efficiently narrow down the topics you want covered.  You can even choose what gaming system you want to focus on, or video reviews of games of all types. The nav bar remains in place no matter where on the site you are, and to make it easier, Polygon will suggest related articles at the bottom of articles you read.
+                <br><br>
+                5 adjectives about the website visually: organized, attractive,  themed,  divided, flowing
+                <br><br>
+                5 adjectives to describe content, focus and purpose: gaming, broad-spectrum,  informative, dedicated,  well-stocked.
+                <br><br>
+                Some adjectives that I feel after being on the site for a while: bored (Well, I can only read about gaming news for so long), anxious (new games coming out!),  entertained.
+                <br><br>
+                Polygon is also a branch of <a href="http://www.theverge.com/">The Verge</a> which is the more generalized tech world news site, which has many of the same qualities as Polygon does.
+                <br><br>
+                Next we have <a href="http://online.wsj.com/home-page">Wall Street Journal</a>:
+                <br><br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The Wall  Street Journal does a good job of incorporating technology into the timeless newspaper style layout.  At a glance your eyes are drawn to the most prominent articles, the front pagers.  The most prominent feature on the site is the WSJ logo, it seems to pop out too much in its box in the top left corner.  It would look better with a centered and written out title, as opposed to the current large text &ldquo;WSJ.&rdquo;
+                <br><br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;WSJ takes a large amount of content in the form of news articles and links, and organizes it into categories. Featured content gets the more prominent locations and visuals, while other content is relegated to text links on the margins.  Their layout allows the less prominent content to still be quite visible and accessible.
+                <br><br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;For a site that really is loaded with content, and is re-loaded every day, the navigation lends itself to easy use. The navigation bar has a well thought out selection of topics to choose from to narrow your search for interesting articles.
+                <br><br>
+                5 adjectives to describe the site visually: loaded, organized,  compartmentalized, relevant, intuitive
+                <br><br>
+                5 adjectives to describe content, focus and purpose: informative, detailed,  comprehensive, current, dedicated.
+                <br><br>
+                Some adjectives describing how I feel after some time on the site: educated, informed, overwhelmed.
+               <br><br>
+                My final choice is going to have to be <a href="http://www.imdb.com/">IMDB</a>:
+                <br><br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;IMDb is a website dedicated to information on television entertainment. This site gives a wealth of information for each and every move, tv show, or actor/actress I have ever looked up, and proves to be quite comprehensive.  If you ever have one of those &ldquo;Oh who was that guy in that movie that one time?&rdquo; moments, IMDb is the place to look.
+                <br><br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The homepage offers interesting facts and videos/graphics of recent or older media. I tend to not go straight to the homepage as I usually get to this site through a Google search of a movie or actor. What really is the essential part of the home page is the search bar, and it is the first thing your eye catches. The search function is very effective, and will yield specific results. From farther back, your eye tends to be moved to the different videos and images screaming for attention lower down on the page.
+                <br><br>
+                5 adjectives to describe the  site visually: media rich, focused, informative,  alluring, inquisitive.
+                <br><br>
+                5 adjectives to describe content, focus and purpose: specific, thorough, related, extensive, complete.
+                <br><br>
+                Some adjectives to describe how I feel after some time on the site: satisfied (Gotta love getting that movie trivia factoid answered), entertained.
+                <br>
+                <br><!-- ADD YOUR POST HERE -->
+              </p>
+            </td>
+          </tr>
+        </table><!-- END POST TABLE -->
       </div>
     </div>
     <footer>

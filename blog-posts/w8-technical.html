@@ -1,0 +1,68 @@
+<html>
+  <head>
+    <title>Charlie Dibble</title>
+    <link href='http://fonts.googleapis.com/css?family=Abel|Roboto' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href ="../stylesheets/blog-stylesheet.css">
+  </head>
+  <body>
+    <header>
+      <h1>Charlie Dibble</h1>
+      <h2>From Forest to Source Code</h2>
+      <nav>
+        <ul>
+          <li>
+            <a href="../index.html">Home</a>
+          </li>
+          <li>
+            <a href="about-me.html">About Me</a>
+          </li>
+          <li>
+            <a href="blog-index.html">Blog</a> <!-- Need a base blog page that will be the home for the different posts, that will also have the recent posts menu -->
+          </li>
+          <li>
+            <a href="projects-page.html">Projects</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <div class="main"><!-- Need to set up a way to alternate backgrounds w/ text/pics... -->
+
+      <div class="content">
+        <p class="posttitle">
+          Tech: Recursion <!-- ENTER TITLE HERE -->
+        </p>
+        <p class="posttitle">
+          Sunday, September 28, 2014        <!-- ENTER DATE HERE -->
+        </p>
+        <p class="blogbody">
+          <br>&nbsp;&nbsp;&nbsp;&nbsp;I find recursion to be a really cool topic. I am not sure what about it fascinates me so, but I can&#39;t help but get excited about it. At it&#39;s most base level, recursion is repeating the same task over and over. With respect to computer science, it is more about repeating the same operation with a new and updated value.
+          <br><br>&nbsp;&nbsp;&nbsp;&nbsp;I remember the day of my DBC interview I was reading up on some different topics and read about recursion specifically. Luckily, one of the questions was an example of recursion in Ruby. The example was this (or at least similar to this):
+          <img src="../imgs/Recursion1.png">
+          <br><br>&nbsp;&nbsp;&nbsp;&nbsp;I was given a method declaration like this., and asked to explain what was going on. After going on about it being a method declaration in Ruby where the method #cookies takes a parameter num, I explained that it was recursive. This method is recursive because it calls itself within itself.
+          <br><br>&nbsp;&nbsp;&nbsp;&nbsp;Now, this is not exactly a pretty example of recursion because it is infinitely recursive. There is no check to exit the continuous call to #cookies from within #cookies, so, it goes on indefinitely.
+          <br><br>&nbsp;&nbsp;&nbsp;&nbsp;This was part of the problem I was given, I had to fix this infinitely recursive method. To do so, there has to be some sort of control statement to help keep us from having an infinitely recursive method. To fix this, I put in a simple if statement that would check for the number of cookies. After all, you can not eat more cookies than you start with, so I had this statement check to see if cookies was >= 0.
+          <img src="../imgs/Recursion2.png">
+          <br><br>&nbsp;&nbsp;&nbsp;&nbsp;This shorthand if statement checks to see if the number of cookies is still greater than 0. Now, when we call our recursive method, we will continue to take cookies out of our &#34;jar&#34; until they are all gone.
+          <br><br>&nbsp;&nbsp;&nbsp;&nbsp;Now, to test and see if you learned anything about recursion from this explanation, google &#34;recursion&#34; and see if you get the google engineers&#39; joke.
+<!-- ENTER POST HERE -->
+        </p>
+      </div>
+    </div>
+    <footer>
+      <div class="quote">
+        <p>"No one else could ever be admitted here, since this gate was made only for you. I am now going to shut it."<br>
+         <em>Before the Law</em>
+         <br> Franz Kafka
+      </div>
+      <div>
+        <p class="socialmedia">
+          <a href="https://github.com/cgdibble"><img src="../imgs/github-icon.png"></a>,
+          <a href="https://www.linkedin.com/pub/charles-dibble/85/6a4/959?trk=shareTw"><img src="../imgs/linkedin-icon-2.png"></a>
+          <a href="https://twitter.com/cgdibble"><img src="../imgs/twitter-icon-2.png"></a>
+          <a href="https://plus.google.com/106540260376091044461/about"><img src="../imgs/btn_g_red_normal.png-25.png"></a>
+        </p>
+      </div>
+  </footer>
+  </body>
+</html>
