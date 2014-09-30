@@ -1,93 +1,40 @@
-<!--Need to create a side bar that lists all the posts!-->
+<!DOCTYPE html>
 <html>
   <head>
     <title>Charlie Dibble</title>
     <link href='http://fonts.googleapis.com/css?family=Abel|Roboto' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" type="text/css" href ="stylesheets/blog-stylesheet.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script type="text/javascript" src="scripts/blog-jquery.js"></script>
   </head>
   <body>
     <header id="fixedheader">
-      <h1>Charlie Dibble</h1>
-      <h2>From Forest to Source Code</h2>
-      <nav>
-        <ul>
-          <li>
-            <a href="#">Home</a>
-          </li>
-          <li>
-            <a href="blog-posts/about-me.html">About Me</a>
-          </li>
-          <li>
-            <a href="blog-posts/blog-index.html">Blog</a> <!-- Need a base blog page that will be the home for the different posts, that will also have the recent posts menu -->
-          </li>
-          <li>
-            <a href="blog-posts/projects-page.html">Projects</a>
-          </li>
-        </ul>
-      </nav>
+      <div class="aligncenter">
+        <h1>Charlie Dibble</h1>
+        <h2>From Forest to Code</h2>
+        <nav>
+          <ul>
+            <li>
+              <a href="#">Home</a>
+            </li>
+            <li>
+              <a href="blog-posts/about-me.html">About Me</a>
+            </li>
+            <li>
+              <a href="blog-posts/blog-index.html">Blog</a> <!-- Need a base blog page that will be the home for the different posts, that will also have the recent posts menu -->
+            </li>
+            <li>
+              <a href="blog-posts/projects-page.html">Projects</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
     </header>
-    <div class="main"><!-- Need to set up a way to alternate backgrounds w/ text/pics... -->
-      <div class="postarchive">
-        <!--Blog archive::::::a table in the span with the bottom borders of table so it is underlined sort of, and can center the table int he div -->
-        <img class="meimage" src="imgs/cgdgrad12.jpg">
-        <ul>
-            <p>Recent Blog Posts:</p>
-          <li>
-            <a href="blog-posts/t1-compare-websites.html">Tech: Comparing Websites</a>
-          </li>
-          <li>
-            <a href="blog-posts/c1-chefs-kitchen.html">Culture: Chefs in the Kitchen</a>
-          </li>
-          <li>
-            <a href="blog-posts/w2-technical.html">Tech: CSS Concepts Explained</a>
-          </li>
-          <li>
-            <a href="blog-posts/w3-technical.html">Tech: Why is JavaScript so Popular?</a>
-          </li>
-          <li>
-            <a href="blog-posts/w3-cultural.html"> Culture: Thinking Styles and Mindsets</a>
-          </li>
-          <li>
-            <a href="blog-posts/week4-technical.html">Tech: Hashes and Arrays</a>
-          </li>
-          <li>
-            <a href="blog-posts/w4-cultural.html">Culture: The Console Wars</a>
-          </li>
-          <li>
-            <a href="blog-posts/w5-technical.html">Tech: Ruby Classes</a>
-          </li>
-          <li>
-            <a href="blog-posts/w5-cultural.html">Culture: Pairing and Me</a>
-          </li>
-          <li>
-            <a href="blog-posts/w6-technical.html">Tech: Class and Instance Methods</a>
-          </li>
-          <li>
-            <a href="blog-posts/w6-cultural.html">Culture: Stereotype Threat</a>
-          </li>
-          <li>
-            <a href="blog-posts/w7-technical.html">Tech: SQL Injection</a>
-          </li>
-          <li>
-            <a href="blog-posts/w7-cultural.html">Culture: Values</a>
-          </li>
-          <li>
-            <a href="blog-posts/w8-culture.html">Culture: Emotional Conflict</a>
-          </li>
-          <li>
-            <a href="blog-posts/w8-technical.html">Tech: Recursion</a>
-          </li>
-          <li>
-              <a href="blog-posts/gps1.1.html">GPS 1.1: The Funky Color Site</a>
-              <br>
-          </li>
-        </ul>
+      <div>
+        <a href="blog-posts/about-me.html">
+          <img class="meimage" src="imgs/cgdgrad12.jpg">
+        </a>
       </div>
-      <div class="content">
-
-
-      </div>
-    </div>
     <footer>
       <div class="quote">
         <p>"No one else could ever be admitted here, since this gate was made only for you. I am now going to shut it."<br>
