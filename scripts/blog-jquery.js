@@ -2,12 +2,12 @@ $(document).ready(function(){
 
   $('.meimage').on('mouseover', function(e){
     e.preventDefault()
-    $(this).css({'width': '30%', 'border-radius': '210px'});
+    $(this).css({'width': '+=5%', 'border-radius': '210px'});
   })
 
   $('.meimage').on('mouseleave', function(e){
     e.preventDefault()
-    $(this).css({'width': '15%'});
+    $(this).css({'width': '-=5%'});
   })
 
   $('a').on('mouseover', function(e){

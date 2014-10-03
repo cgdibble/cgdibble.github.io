@@ -1,9 +1,14 @@
 html {
-  color: #B0ADB0;/*#7D7D7D;*/
+  color: #B0ADB0;
   background-color: #303030;
   margin: 0;
   padding: 0;
-  font-family: "Abel"
+  font-family: "Abel";
+  /*REMOVE THIS if you want to get rid of background image*/
+  background-image: url("../imgs/DSC_2004.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100%;
 }
 
 #fixedheader {
@@ -13,12 +18,11 @@ html {
 }
 
 header {
-  /*background: url('../imgs/DSCN1160.JPG');*/
   background-color: #303030;
   padding-bottom: 10px;
   margin-bottom: 10px;
   color: #B0ADB0;
-  border-bottom: 1px dotted red; /*#7D7D7D;*/
+  border-bottom: 1px dotted #B0ADB0;
 }
 
 header h1 {
@@ -46,6 +50,10 @@ a:hover{
   display: none;
 }
 
+#blogtitle {
+  font-size: 30px;
+}
+
 .sidenavbar {
   float: left;
   font-size: 12px;
@@ -65,10 +73,6 @@ a:hover{
   text-align: left;
 }
 
-nav ul li:hover #blogsubmenu {
-  display: inline-block;
-  background: none;
-}
 .posttable {
   width: 100%;
   margin-left: auto;
@@ -82,10 +86,12 @@ nav ul li:hover #blogsubmenu {
   width: 25%;
   margin-left: auto;
   margin-right: auto;
+  margin-top: 150px;
 }
 
 /*IDs for each blog post on blog-index
   In order you scroll through them*/
+#w9culture {}
 #w8tech {}
 #w8culture {}
 #w7culture {}
@@ -103,12 +109,17 @@ nav ul li:hover #blogsubmenu {
 #w1tech {}
 
 .meimage {  /*Image of me on index page*/
-  width: 15%;
+  width: 65%;
   border-radius: 210px;
   margin-left: auto;
   margin-right: auto;
   margin-top: 10%;
   display: block;
+}
+
+.pictureleft {
+  width: 10%;
+  float: left;
 }
 
 table img{ /*This is mostly for the inserted screenshots of code*/
@@ -117,12 +128,17 @@ table img{ /*This is mostly for the inserted screenshots of code*/
 }
 
 table ul {
-  margin-left: 15%
+  margin-left: 15%;
+}
+
+.pagetitle {
+  margin-top: 15px;
+
 }
 
 .postarchive li {
   margin: 5px;
-  border-bottom: 1px dotted red;
+  border-bottom: 1px dotted #B0ADB0;
 }
 
 #tech {
@@ -134,11 +150,20 @@ table ul {
   width: 50%;
 }
 
+.backgroundphoto {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.alignleft {
+  text-align: left;
+}
+
 .aligncenter {
   text-align: center;
   margin-right: auto;
-  margin-left: auto;
-
+  margin-left: 0;
 }
 
 .mainabout {
@@ -156,7 +181,7 @@ table ul {
   width: 100%;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 140px;
+  margin-top: 100px;
   margin-bottom: 0;
   text-align: center;
   padding: 0;
@@ -165,8 +190,10 @@ table ul {
 
 .content {
   width: 60%;
-  margin: 160px auto;
+  margin: 110px auto;
   text-align: left;
+ /* background: #303030;*/
+  padding: 10px;
 }
 
 .aboutme {
@@ -174,20 +201,27 @@ table ul {
 }
 
 table {
-  border: 1px dotted red;
+  border: 1px dotted #B0ADB0;
   font-size: 20px;
   padding-left: 2%;
+  padding-right: 2%;
+  padding-bottom: 2%;
+  background: #303030;
+  /*the opacity makes it so scrolling rolls over the fixed header*/
+  /*opacity: .7;*/
 }
 
 ul {
   padding: 0;
-  margin: auto;
+  margin-left: 0;
   list-style-type: none;
 }
 
 nav {
   margin-left: auto;
-  margin-right: auto;
+  margin-right: 0;
+  margin-top: 1%;
+  text-align: left;
 }
 
 nav li {
@@ -196,7 +230,7 @@ nav li {
 }
 
 nav ul {
-  width: 20%;
+  margin-right: 2%;
 }
 
 .socialmedia {
@@ -213,9 +247,13 @@ nav ul {
 }
 
 footer div {
-  border-top: 1px dotted red;
+  border-top: 1px dotted #B0ADB0;
   margin-top: 10px;
   text-align: center;
+}
+
+#indexfooter {
+  margin-top: 48%;
 }
 
 .quote {
