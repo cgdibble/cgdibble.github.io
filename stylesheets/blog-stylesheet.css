@@ -9,12 +9,14 @@ html {
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: 100%;
+  z-index: 99;
 }
 
 #fixedheader {
   position: fixed;
   width: 100%;
   top: 0px;
+  z-index: 100;
 }
 
 header {
@@ -192,8 +194,9 @@ table ul {
   width: 60%;
   margin: 110px auto;
   text-align: left;
- /* background: #303030;*/
+  background: #303030;
   padding: 10px;
+  opacity: .7;
 }
 
 .aboutme {
@@ -207,8 +210,8 @@ table {
   padding-right: 2%;
   padding-bottom: 2%;
   background: #303030;
-  /*the opacity makes it so scrolling rolls over the fixed header*/
-  /*opacity: .7;*/
+ /* the opacity makes it so scrolling rolls over the fixed header
+  opacity: 0.7;*/
 }
 
 ul {
