@@ -203,6 +203,15 @@ table ul {
   opacity: .7;
 }
 
+.blogcontent {
+  width: 60%;
+  margin: 110px auto;
+  text-align: left;
+  background: 0;
+  padding: 10px;
+  opacity: .7;
+}
+
 .aboutme {
   font-size: 20px;
 }
