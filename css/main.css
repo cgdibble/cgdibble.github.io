@@ -1,0 +1,40 @@
+.red {
+  background-color: red;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.green {
+  background-color: green;
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+.black {
+  background-color: black;
+  font: white;
+}
+
+.orange {
+  background-color: orange;
+}
+
+.purple {
+  background-color: purple;
+}
+
+.brightGreen {
+  background-color: #30FF00;
+}
+
+.navyBlue {
+  background-color: #0967B2;
+}
+
+.magenta {
+  background-color: #FF00C5
+}
