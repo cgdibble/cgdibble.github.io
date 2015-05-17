@@ -1,16 +1,32 @@
 .header-container {
   background-image: url('../imgs/keyboardDesk-SM.jpg');
-  /*background-size: contain;*/
+  background-size: cover; /* vs contain*/
   background-repeat: no-repeat;
   /*max-height: 730px;*/
   background-size: 100%;
   background-position: center;
 }
 
+.about-me {
+  background-color: #f3f5f8;
+}
+
 .header-title {
-  border: 2px solid black;
-  margin-top: 20%;
-  color: black;
+  font-size: 400%;
+  font-family: sans-serif;
+  /*Andale Mono, Courier, Courier New, Lucida Bright, Copperplate, SANS-SERIF*/
+}
+
+.md-height {
+  height: 700px;
+}
+
+.no-padding {
+  padding: 0px;
+}
+
+.no-margin {
+  margin-bottom: 0px;
 }
 
 .red {
