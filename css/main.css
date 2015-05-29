@@ -1,10 +1,38 @@
+#load-content {
+  margin-top: 30%;
+}
+
+#load-title {
+  font-size: 60px;
+}
+
+#load-nav {
+
+}
+
+.navbar-default {
+  background-color: rgba(132, 131, 131, 0.5);
+  border-color: #e7e7e7;
+  width: 100%;
+  margin:0px;
+}
+
+.blue-font {
+  color: #4EB1B2;
+}
+
 .header-container {
-  background-image: url('../imgs/keyboardDesk-SM.jpg');
+  background: url('../imgs/keyboardDesk-SM.jpg') no-repeat center center fixed;
   background-size: cover; /* vs contain*/
-  background-repeat: no-repeat;
-  /*max-height: 730px;*/
-  background-size: 100%;
-  background-position: center;
+  /*background-repeat: no-repeat;*/
+  max-height: 730px;
+  padding:0px;
+  margin: 0px;
+  /*background-position: center;*/
+}
+
+.title-navbar {
+  background-opactiy
 }
 
 .about-me {
@@ -12,9 +40,15 @@
 }
 
 .header-title {
+  padding-top:5%;
+  margin-top:0px;
   font-size: 400%;
   font-family: sans-serif;
   /*Andale Mono, Courier, Courier New, Lucida Bright, Copperplate, SANS-SERIF*/
+}
+/*#B8B9BB*/
+.content {
+  border: 1px solid #C81414;
 }
 
 .md-height {
