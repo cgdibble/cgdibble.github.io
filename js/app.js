@@ -8,18 +8,28 @@ $(document).ready(function(){
   $(document).on('scroll', function() {
     console.log("animate fucker!")
 
-    $('#load-title').css({
-      'left': $('#load-title').position().left - 90,
-      'top': $('#load-title').position().top - 80,
-      'font-size': '-=10',
-      position: 'absolute'
-    })
+    // $('#load-title').css({
+    //   'left': $('#load-title').position().left - 90,
+    //   'top': $('#load-title').position().top - 80,
+    //   'font-size': '-=10',
+    //   position: 'absolute'
+    // })
+        console.log($('#load-title').offset().top)
+        console.log($('#load-title').offset().left)
+        console.log($('#scrolled-title').offset().top)
+        console.log($('#scrolled-title').offset().left)
 
-    // $('#load-title').animate({
-    //   top: "-=50",
-    //   left: "-=75"
-    // }, 50, "linear");
 
+    if ($(this).scrollTop() > 0) {
+      $('#load-title').animate({
+        top: $('#scrolled-title').offset().top,
+        left: $('#scrolled-title').offset().left,
+        "font-size": $('#scrolled-title').css("font-size")
+      }, 2000, "linear", function() {
+        console.log($('#load-title').offset().top)
+        console.log($('#load-title').offset().left)
+      });
+    }
     // as you scroll DOWN animate the #load-title to the topleft corner, and navbar elements to top right
     // if you scroll down, if you are at a certain point in the page, then put the #load-title and #load-nav back to starting position
 
@@ -33,4 +43,4 @@ $(document).ready(function(){
     // });
   })
 
-})
+});
